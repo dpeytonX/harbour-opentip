@@ -5,7 +5,11 @@
     <name>CoverPage</name>
     <message>
         <source>My Cover</source>
-        <translation>Mein Cover</translation>
+        <translation type="obsolete">Mein Cover</translation>
+    </message>
+    <message>
+        <source>OpenTip</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -24,6 +28,13 @@
     </message>
 </context>
 <context>
+    <name>MainApp</name>
+    <message>
+        <source>Open Tip</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>SecondPage</name>
     <message>
         <source>Nested Page</source>
@@ -34,5 +45,23 @@
         <translation>Element</translation>
     </message>
 </context>
+<context>
+    <name>TipButtons</name>
+    <message>
+        <source>15%</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>18%</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>20%</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Other</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
 </TS>
-

@@ -32,21 +32,20 @@ import QtQuick 2.0
 import Sailfish.Silica 1.0
 
 CoverBackground {
-    Label {
-        id: label
-        anchors.centerIn: parent
-        text: qsTr("My Cover")
-    }
-
-    CoverActionList {
-        id: coverAction
-
-        CoverAction {
-            iconSource: "image://theme/icon-cover-next"
-        }
-
-        CoverAction {
-            iconSource: "image://theme/icon-cover-pause"
+    Column {
+        anchors.top: parent.top
+        anchors.topMargin: Theme.paddingLarge
+        spacing: 10
+        width: parent.width
+        /*Image {
+            anchors.horizontalCenter: parent.horizontalCenter
+            opacity: 0.5
+            source: "qrc:///duckduckgo.png"
+        }*/
+        Label {
+            anchors.horizontalCenter: parent.horizontalCenter
+            id: label
+            text: qsTr("OpenTip")
         }
     }
 }

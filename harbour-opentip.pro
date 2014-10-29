@@ -18,13 +18,20 @@ SOURCES += src/harbour-opentip.cpp
 
 OTHER_FILES += qml/harbour-opentip.qml \
     qml/cover/CoverPage.qml \
-    qml/pages/FirstPage.qml \
-    qml/pages/SecondPage.qml \
     rpm/harbour-opentip.changes.in \
     rpm/harbour-opentip.spec \
     rpm/harbour-opentip.yaml \
     translations/*.ts \
-    harbour-opentip.desktop
+    harbour-opentip.desktop \
+    qml/pages/MainApp.qml \
+    qml/qmllogger/Logger.js \
+    qml/SailfishWidgets/DescriptiveLabel.qml \
+    qml/SailfishWidgets/Heading.qml \
+    qml/SailfishWidgets/InformationalLabel.qml \
+    qml/SailfishWidgets/StandardListView.qml \
+    qml/pages/widgets/TipButtons.qml \
+    qml/SailfishWidgets/qmldir \
+    qml/SailfishWidgets/sailfishwidgets.qmltypes
 
 # to disable building translations every time, comment out the
 # following CONFIG line
