@@ -25,16 +25,13 @@ OTHER_FILES += qml/harbour-opentip.qml \
     harbour-opentip.desktop \
     qml/pages/MainApp.qml \
     qml/qmllogger/Logger.js \
-    qml/SailfishWidgets/DescriptiveLabel.qml \
-    qml/SailfishWidgets/Heading.qml \
-    qml/SailfishWidgets/InformationalLabel.qml \
-    qml/SailfishWidgets/StandardListView.qml \
     qml/pages/widgets/TipButtons.qml \
-    qml/SailfishWidgets/qmldir \
-    qml/SailfishWidgets/sailfishwidgets.qmltypes
+    harbour/opentip/SailfishWidgets/*.qml \
+    harbour/opentip/SailfishWidgets/qmldir/*
 
 # to disable building translations every time, comment out the
 # following CONFIG line
 CONFIG += sailfishapp_i18n
-TRANSLATIONS += translations/harbour-opentip-de.ts
+TRANSLATIONS += translations/harbour-opentip-de.ts \
+                translations/harbour-opentip-jp.ts
 
