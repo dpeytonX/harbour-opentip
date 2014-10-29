@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+X-Nemo-Application-Type=silica-qt5
+Icon=harbour-opentip
+Exec=harbour-opentip
+Name=harbour-opentip
+# translation example:
+# your app name in German locale (de)
+Name[de]=harbour-opentip
+
