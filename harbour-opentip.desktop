@@ -1,6 +1,7 @@
 [Desktop Entry]
 Type=Application
 X-Nemo-Application-Type=silica-qt5
+X-Nemo-Single-Instance=yes
 Icon=harbour-opentip
 Exec=harbour-opentip
 Name=harbour-opentip

@@ -4,7 +4,7 @@
 <context>
     <name>CoverPage</name>
     <message>
-        <source>My Cover</source>
+        <source>OpenTip</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -24,6 +24,44 @@
     </message>
 </context>
 <context>
+    <name>Logger</name>
+    <message>
+        <source>VERBOSE</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>TRACE</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>DEBUG</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>INFO</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>WARN</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>ERROR</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>CRITICAL</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>MainApp</name>
+    <message>
+        <source>Open Tip</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>SecondPage</name>
     <message>
         <source>Nested Page</source>
@@ -34,5 +72,23 @@
         <translation type="unfinished"></translation>
     </message>
 </context>
+<context>
+    <name>TipButtons</name>
+    <message>
+        <source>15%</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>18%</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>20%</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Other</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
 </TS>
-
