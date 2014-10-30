@@ -26,7 +26,7 @@ OTHER_FILES += qml/harbour-opentip.qml \
     qml/pages/MainApp.qml \
     qml/qmllogger/Logger.js \
     qml/pages/widgets/TipButtons.qml \
-    SailfishWidgets/*
+    harbour/opentip/SailfishWidgets/*
 
 QML_IMPORT_PATH = .
 opentip.files = harbour
