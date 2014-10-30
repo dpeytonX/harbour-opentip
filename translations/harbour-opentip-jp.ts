@@ -60,6 +60,22 @@
         <source>Open Tip</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Select a percentage</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Final Amount</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Custom Percentage %</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Total before tip</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>SecondPage</name>
