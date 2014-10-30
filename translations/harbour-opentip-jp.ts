@@ -75,19 +75,19 @@
 <context>
     <name>TipButtons</name>
     <message>
-        <source>15%</source>
+        <source>15</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>18%</source>
+        <source>18</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>20%</source>
+        <source>20</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Other</source>
+        <source>%</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
