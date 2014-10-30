@@ -26,8 +26,13 @@ OTHER_FILES += qml/harbour-opentip.qml \
     qml/pages/MainApp.qml \
     qml/qmllogger/Logger.js \
     qml/pages/widgets/TipButtons.qml \
-    harbour/opentip/SailfishWidgets/*.qml \
-    harbour/opentip/SailfishWidgets/qmldir/*
+    SailfishWidgets/*
+
+QML_IMPORT_PATH = .
+opentip.files = harbour
+opentip.path = /usr/share/$${TARGET}
+
+INSTALLS += opentip
 
 # to disable building translations every time, comment out the
 # following CONFIG line

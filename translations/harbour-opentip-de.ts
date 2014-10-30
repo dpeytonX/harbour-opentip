@@ -28,6 +28,37 @@
     </message>
 </context>
 <context>
+    <name>Logger</name>
+    <message>
+        <source>VERBOSE</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>TRACE</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>DEBUG</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>INFO</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>WARN</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>ERROR</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>CRITICAL</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>MainApp</name>
     <message>
         <source>Open Tip</source>
