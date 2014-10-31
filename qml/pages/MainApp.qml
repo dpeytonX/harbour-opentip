@@ -1,6 +1,7 @@
 import QtQuick 2.0
 import Sailfish.Silica 1.0
 import harbour.opentip.SailfishWidgets 1.0
+import harbour.opentip.OpenTip 1.0
 import "widgets"
 import "../qmllogger/Logger.js" as Console
 
@@ -29,6 +30,7 @@ Page {
             anchors.left: parent.left
             anchors.leftMargin: Theme.paddingLarge
             anchors.right: parent.right
+            height: parent.height
 
             PageHeader {title: qsTr("Open Tip")}
 
@@ -80,26 +82,18 @@ Page {
 
             Separator {}
 
-            Column {
+            CalculationView {
                 anchors.left: parent.left
                 anchors.leftMargin: Theme.paddingLarge
                 anchors.right: parent.right
+                height: 1 // This is necessary to reserve column position
+                finalTitle: qsTr("Total Amount")
                 id: resultArea
+                tipTitle: qsTr("Tip Amount")
                 visible: false
 
-                Heading {text: qsTr("Tip Amount")}
-
-                Label {
-                    id: tipAmount
-                    onTextChanged: tipAmountChanged(text)
-                }
-
-                Heading {text: qsTr("Total Amount")}
-
-                Label {
-                    id: finalAmount
-                    onTextChanged: finalAmountChanged(text)
-                }
+                onTipTextChanged: tipAmountChanged(tipText)
+                onFinalTextChanged: finalAmountChanged(finalText)
             }
         }
     }
@@ -108,20 +102,12 @@ Page {
 
     onTotalChanged: calculate(percentage, total)
 
-    Component.onCompleted: {
-        Console.LOG_PRIORITY = Console.DEBUG
-    }
-
     function calculate(percentage, total) {
         Console.info("onTotalChanged()")
         Console.debug("percentage: " + percentage)
         Console.debug("total: " + total)
-        if(!percentage || !total)
-        {
-            resultArea.visible = false
-            return
-        }
-        resultArea.visible = true
+
+        resultArea.visible = percentage && total
 
         //TODO: consider formatting decimal places
         var tip = total * percentage
@@ -129,8 +115,7 @@ Page {
         Console.debug("tip: " + tip)
         Console.debug("result: " + result)
 
-        tipAmount.text = tip
-        finalAmount.text = result
+        resultArea.tipText = tip
+        resultArea.finalText = result
     }
-
 }
