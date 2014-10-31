@@ -61,7 +61,7 @@ Page {
 
                 onTextChanged: percentage = text / 100
                 validator: IntValidator {
-                    bottom: 0
+                    bottom: 1
                     top: 100
                 }
             }
