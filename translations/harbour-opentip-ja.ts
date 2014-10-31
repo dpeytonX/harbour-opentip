@@ -4,27 +4,16 @@
 <context>
     <name>CoverPage</name>
     <message>
-        <source>My Cover</source>
-        <translation type="obsolete">Mein Cover</translation>
-    </message>
-    <message>
         <source>Open Tip</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>FirstPage</name>
-    <message>
-        <source>Show Page 2</source>
-        <translation>Zur Seite 2</translation>
+        <translation>オペン・ティップ</translation>
     </message>
     <message>
-        <source>UI Template</source>
-        <translation>UI-Vorlage</translation>
+        <source>Tip</source>
+        <translation>ティップ</translation>
     </message>
     <message>
-        <source>Hello Sailors</source>
-        <translation>Hallo Matrosen</translation>
+        <source>Total</source>
+        <translation>全額</translation>
     </message>
 </context>
 <context>
@@ -61,62 +50,51 @@
 <context>
     <name>MainApp</name>
     <message>
+        <source>Reset</source>
+        <translation>戻す</translation>
+    </message>
+    <message>
         <source>Open Tip</source>
-        <translation type="unfinished"></translation>
+        <translation>オペン・ティップ</translation>
     </message>
     <message>
         <source>Select a percentage</source>
-        <translation type="unfinished"></translation>
+        <translation>割合を選択</translation>
     </message>
     <message>
         <source>Custom Percentage %</source>
-        <translation type="unfinished"></translation>
+        <translation>割合を指定</translation>
     </message>
     <message>
         <source>Total before tip</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Tip Amount</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Reset</source>
-        <translation type="unfinished"></translation>
+        <translation>ティップ以前の金額</translation>
     </message>
     <message>
         <source>Total Amount</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>SecondPage</name>
-    <message>
-        <source>Nested Page</source>
-        <translation>Unterseite</translation>
+        <translation>全額</translation>
     </message>
     <message>
-        <source>Item</source>
-        <translation>Element</translation>
+        <source>Tip Amount</source>
+        <translation>ティップの金額</translation>
     </message>
 </context>
 <context>
     <name>TipButtons</name>
     <message>
         <source>15</source>
-        <translation type="unfinished"></translation>
+        <translation>15</translation>
     </message>
     <message>
         <source>18</source>
-        <translation type="unfinished"></translation>
+        <translation>18</translation>
     </message>
     <message>
         <source>20</source>
-        <translation type="unfinished"></translation>
+        <translation>20</translation>
     </message>
     <message>
         <source>%</source>
-        <translation type="unfinished"></translation>
+        <translation>%</translation>
     </message>
 </context>
 </TS>

@@ -26,7 +26,8 @@ OTHER_FILES += qml/harbour-opentip.qml \
     qml/pages/MainApp.qml \
     qml/qmllogger/Logger.js \
     qml/pages/widgets/TipButtons.qml \
-    harbour/opentip/SailfishWidgets/*
+    harbour/opentip/SailfishWidgets/* \
+    harbour/opentip/OpenTip/*
 
 QML_IMPORT_PATH = .
 opentip.files = harbour
@@ -37,8 +38,7 @@ INSTALLS += opentip
 # to disable building translations every time, comment out the
 # following CONFIG line
 CONFIG += sailfishapp_i18n
-TRANSLATIONS += translations/harbour-opentip-de.ts \
-                translations/harbour-opentip-jp.ts
+TRANSLATIONS += translations/harbour-opentip-ja.ts
 
 RESOURCES += \
     images.qrc
