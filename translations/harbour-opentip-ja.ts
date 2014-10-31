@@ -5,15 +5,15 @@
     <name>CoverPage</name>
     <message>
         <source>Open Tip</source>
-        <translation>Open Tip</translation>
+        <translation>オペン・ティップ</translation>
     </message>
     <message>
         <source>Tip</source>
-        <translation>Tip</translation>
+        <translation>ティップ</translation>
     </message>
     <message>
         <source>Total</source>
-        <translation>Total</translation>
+        <translation>全額</translation>
     </message>
 </context>
 <context>
@@ -51,31 +51,31 @@
     <name>MainApp</name>
     <message>
         <source>Reset</source>
-        <translation>Reset</translation>
+        <translation>戻す</translation>
     </message>
     <message>
         <source>Open Tip</source>
-        <translation>Open Tip</translation>
+        <translation>オペン・ティップ</translation>
     </message>
     <message>
         <source>Select a percentage</source>
-        <translation>Select a percentage</translation>
+        <translation>割合を選択</translation>
     </message>
     <message>
         <source>Custom Percentage %</source>
-        <translation>Custom Percentage %</translation>
+        <translation>割合を指定</translation>
     </message>
     <message>
         <source>Total before tip</source>
-        <translation>Total before tip</translation>
+        <translation>ティップ以前の金額</translation>
     </message>
     <message>
         <source>Total Amount</source>
-        <translation>Total Amount</translation>
+        <translation>全額</translation>
     </message>
     <message>
         <source>Tip Amount</source>
-        <translation>Tip Amount</translation>
+        <translation>ティップの金額</translation>
     </message>
 </context>
 <context>
