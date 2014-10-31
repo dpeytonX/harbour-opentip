@@ -40,3 +40,6 @@ CONFIG += sailfishapp_i18n
 TRANSLATIONS += translations/harbour-opentip-de.ts \
                 translations/harbour-opentip-jp.ts
 
+RESOURCES += \
+    images.qrc
+

@@ -8,7 +8,7 @@
         <translation type="obsolete">Mein Cover</translation>
     </message>
     <message>
-        <source>OpenTip</source>
+        <source>Open Tip</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -69,15 +69,23 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Final Amount</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Custom Percentage %</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Total before tip</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Tip Amount</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Reset</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Total Amount</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

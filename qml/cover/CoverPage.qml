@@ -30,24 +30,49 @@
 
 import QtQuick 2.0
 import Sailfish.Silica 1.0
+import harbour.opentip.SailfishWidgets 1.0
 
 CoverBackground {
+    opacity: 0.6
+
+    property string tip
+    property string total
+
     Column {
-        anchors.top: parent.top
-        anchors.topMargin: Theme.paddingLarge
+        anchors.fill: parent
+        height: parent.height
         spacing: 10
         width: parent.width
-        /*Image {
+        y: Theme.paddingLarge
+
+        Column {
+            anchors.fill: parent
+            id: info
+            visible: !!tip && !!total
+
+            Label {
+                anchors.horizontalCenter: parent.horizontalCenter
+                text: tip
+            }
+            Label {
+                anchors.horizontalCenter: parent.horizontalCenter
+                text: total
+            }
+        }
+
+
+        Image {
             anchors.horizontalCenter: parent.horizontalCenter
-            opacity: 0.5
-            source: "qrc:///duckduckgo.png"
-        }*/
-        Label {
-            anchors.horizontalCenter: parent.horizontalCenter
-            id: label
-            text: qsTr("OpenTip")
+            source: "qrc:///images/desktop.png"
+            visible: !info.visible
         }
     }
+
+
+    InformationalLabel {
+        anchors.horizontalCenter: parent.horizontalCenter
+        anchors.verticalCenter: parent.verticalCenter
+        text: qsTr("Open Tip")
+        visible: !info.visible
+    }
 }
-
-

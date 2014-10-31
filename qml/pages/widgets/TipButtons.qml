@@ -8,6 +8,7 @@ Row {
 
     property real defaultPercent: 0.2
 
+    signal reset
     signal percentChanged(int percent)
     signal fifteenStateChanged(bool state)
     signal eighteenStateChanged(bool state)
@@ -93,6 +94,8 @@ Row {
             break
         }
     }
+
+    onReset: percentChanged(3)
 
     function getButtonWidth(parentWidth, parentSpacing) {
         return parent.width / 4
