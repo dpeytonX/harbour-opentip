@@ -16,18 +16,16 @@ CONFIG += sailfishapp
 
 SOURCES += src/harbour-opentip.cpp
 
-OTHER_FILES += qml/harbour-opentip.qml \
-    qml/cover/CoverPage.qml \
+OTHER_FILES += qml/* \
+    qml/pages/* \
+    qml/pages/widgets/* \
+    qml/cover/* \
     rpm/harbour-opentip.changes.in \
     rpm/harbour-opentip.spec \
     rpm/harbour-opentip.yaml \
     translations/*.ts \
-    harbour-opentip.desktop \
-    qml/pages/MainApp.qml \
-    qml/qmllogger/Logger.js \
-    qml/pages/widgets/TipButtons.qml \
-    harbour/opentip/SailfishWidgets/* \
-    harbour/opentip/OpenTip/*
+    harbour/opentip/* \
+    harbour-opentip.desktop
 
 QML_IMPORT_PATH = .
 opentip.files = harbour
@@ -42,4 +40,3 @@ TRANSLATIONS += translations/harbour-opentip-ja.ts
 
 RESOURCES += \
     images.qrc
-

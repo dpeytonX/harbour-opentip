@@ -1,9 +1,9 @@
 import QtQuick 2.0
 import Sailfish.Silica 1.0
-import harbour.opentip.SailfishWidgets 1.0
+import harbour.opentip.QmlLogger 2.0
+import harbour.opentip.SailfishWidgets.Components 1.1
 import harbour.opentip.OpenTip 1.0
 import "widgets"
-import "../qmllogger/Logger.js" as Console
 
 Page {
     id: mainApp
@@ -26,13 +26,10 @@ Page {
             }
         }
 
-        Column {
-            anchors.left: parent.left
-            anchors.leftMargin: Theme.paddingLarge
-            anchors.right: parent.right
+        PageColumn {
             height: parent.height
-
-            PageHeader {title: qsTr("Open Tip")}
+            title: qsTr("Open Tip")
+            width: parent.width - Theme.paddingLarge
 
             InformationalLabel {
                 text: qsTr("Select a percentage")
