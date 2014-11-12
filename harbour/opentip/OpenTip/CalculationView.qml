@@ -1,6 +1,6 @@
 import QtQuick 2.0
 import Sailfish.Silica 1.0
-import harbour.opentip.SailfishWidgets 1.0
+import harbour.opentip.SailfishWidgets.Components 1.1
 
 Item {
     property alias finalText: finalAmount.text
