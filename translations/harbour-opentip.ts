@@ -20,31 +20,31 @@
     <name>MainApp</name>
     <message>
         <source>Reset</source>
-        <translation>Reset</translation>
+        <translation type="unfinished">Reset</translation>
     </message>
     <message>
         <source>Open Tip</source>
-        <translation>Open Tip</translation>
+        <translation type="unfinished">Open Tip</translation>
     </message>
     <message>
         <source>Select a percentage</source>
-        <translation>Select a percentage</translation>
+        <translation type="unfinished">Select a percentage</translation>
     </message>
     <message>
         <source>Custom Percentage %</source>
-        <translation>Custom Percentage %</translation>
+        <translation type="unfinished">Custom Percentage %</translation>
     </message>
     <message>
         <source>Total before tip</source>
-        <translation>Total before tip</translation>
+        <translation type="unfinished">Total before tip</translation>
     </message>
     <message>
         <source>Total Amount</source>
-        <translation>Total Amount</translation>
+        <translation type="unfinished">Total Amount</translation>
     </message>
     <message>
         <source>Tip Amount</source>
-        <translation>Tip Amount</translation>
+        <translation type="unfinished">Tip Amount</translation>
     </message>
 </context>
 <context>

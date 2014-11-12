@@ -20,31 +20,31 @@
     <name>MainApp</name>
     <message>
         <source>Reset</source>
-        <translation>戻す</translation>
+        <translation type="unfinished">戻す</translation>
     </message>
     <message>
         <source>Open Tip</source>
-        <translation>オペン・ティップ</translation>
+        <translation type="unfinished">オペン・ティップ</translation>
     </message>
     <message>
         <source>Select a percentage</source>
-        <translation>割合を選択</translation>
+        <translation type="unfinished">割合を選択</translation>
     </message>
     <message>
         <source>Custom Percentage %</source>
-        <translation>割合を指定</translation>
+        <translation type="unfinished">割合を指定</translation>
     </message>
     <message>
         <source>Total before tip</source>
-        <translation>ティップ以前の金額</translation>
+        <translation type="unfinished">ティップ以前の金額</translation>
     </message>
     <message>
         <source>Total Amount</source>
-        <translation>全額</translation>
+        <translation type="unfinished">全額</translation>
     </message>
     <message>
         <source>Tip Amount</source>
-        <translation>ティップの金額</translation>
+        <translation type="unfinished">ティップの金額</translation>
     </message>
 </context>
 <context>

@@ -3,9 +3,13 @@ import Sailfish.Silica 1.0
 import harbour.opentip.SailfishWidgets.Components 1.1
 import harbour.opentip.OpenTip 1.0
 
-CoverBackground {
+StandardCover {
     property string tip
     property string total
+
+    coverTitle: qsTr("Open Tip")
+    displayDefault: !info.visible
+    imageSource: "qrc:///images/desktop.png"
 
     Item {
         anchors.fill: parent
@@ -23,20 +27,5 @@ CoverBackground {
             tipTitle: qsTr("Tip")
             visible: !!tip && tip > 0 && !!total && total > 0
         }
-
-        Image {
-            anchors.horizontalCenter: parent.horizontalCenter
-            opacity: 0.6
-            source: "qrc:///images/desktop.png"
-            visible: !info.visible
-        }
-    }
-
-
-    InformationalLabel {
-        anchors.horizontalCenter: parent.horizontalCenter
-        anchors.verticalCenter: parent.verticalCenter
-        text: qsTr("Open Tip")
-        visible: !info.visible
     }
 }
