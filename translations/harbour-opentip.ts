@@ -46,6 +46,10 @@
         <source>Tip Amount</source>
         <translation type="unfinished">Tip Amount</translation>
     </message>
+    <message>
+        <source>%</source>
+        <translation type="unfinished">%</translation>
+    </message>
 </context>
 <context>
     <name>TipButtons</name>

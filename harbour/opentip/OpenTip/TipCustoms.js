@@ -10,6 +10,8 @@
 
  */
 
+.pragma library
+
 var TipCustom = function(country, tip, defaultIndex, description) {
     this.country = country
     this.tip = tip

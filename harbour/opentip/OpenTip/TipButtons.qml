@@ -6,32 +6,41 @@ Row {
     id: tipButtons
     spacing: Theme.paddingSmall
 
-    property real defaultPercent: 0.2
+    property alias percentTextOne: p1.text
+    property alias percentTextTwo: p2.text
+    property alias percentTextThree: p3.text
+    property alias percentTextFour: p4.text
+    property alias percentValueOne: p1.value
+    property alias percentValueTwo: p2.value
+    property alias percentValueThree: p3.value
+    property alias percentValueFour: p4.value
 
     signal reset
     signal percentChanged(int percent)
-    signal fifteenStateChanged(bool state)
-    signal eighteenStateChanged(bool state)
-    signal twentyStateChanged(bool state)
-    signal otherStateChanged(bool state)
+    signal tipPercentOneChanged(bool state)
+    signal tipPercentTwoChanged(bool state)
+    signal tipPercentThreeChanged(bool state)
+    signal tipPercentFourChanged(bool state)
 
     TextSwitch {
         automaticCheck: false
         id: p1
-        text: qsTr("15")
         width: getButtonWidth(parent.width, parent.spacing)
 
-        onCheckedChanged: fifteenStateChanged(checked)
+        property real value
+
+        onCheckedChanged: tipPercentOneChanged(checked)
         onClicked: percentChanged(1)
     }
 
     TextSwitch {
         automaticCheck: false
         id: p2
-        text: qsTr("18")
         width: getButtonWidth(parent.width, parent.spacing)
 
-        onCheckedChanged: eighteenStateChanged(checked)
+        property real value
+
+        onCheckedChanged: tipPercentTwoChanged(checked)
         onClicked: percentChanged(2)
     }
 
@@ -39,33 +48,33 @@ Row {
         automaticCheck: false
         checked: true
         id: p3
-        text: qsTr("20")
         width: getButtonWidth(parent.width, parent.spacing)
 
-        onCheckedChanged: twentyStateChanged(checked)
+        property real value
+
+        onCheckedChanged: tipPercentThreeChanged(checked)
         onClicked: percentChanged(3)
     }
 
     TextSwitch {
         automaticCheck: false
         id: p4
-        text: qsTr("%")
         width: getButtonWidth(parent.width, parent.spacing)
 
-        onCheckedChanged: otherStateChanged(checked)
-        onClicked: {
-            //TODO: display user entry box for percent 1-100
-            percentChanged(4)
-        }
+        property real value
+
+        onCheckedChanged: tipPercentFourChanged(checked)
+        onClicked: percentChanged(4)
     }
 
     onPercentChanged: {
+        Console.debug("TipButtons: percent clicked")
         if(!(!!percent)) {
-            Console.debug("onPercentChanged: No percent specified found")
+            Console.debug("TipButtons: No percent specified found")
             return;
         }
 
-        Console.debug("onPercentChanged: got percentage " + percent)
+        Console.debug("TipButtons: got percentage " + percent)
 
         switch(percent) {
         case 1:
@@ -94,8 +103,6 @@ Row {
             break
         }
     }
-
-    onReset: percentChanged(3)
 
     function getButtonWidth(parentWidth, parentSpacing) {
         return parent.width / 4
