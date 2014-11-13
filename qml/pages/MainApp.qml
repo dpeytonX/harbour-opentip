@@ -7,8 +7,10 @@ import OpenTip 1.0
 
 Page {
     id: mainApp
-    property real percentage: TipCustoms.tipMap[settings.getTipCountry()].tip[TipCustoms.tipMap[0].defaultIndex]
+    property int country: settings.getTipCountry()
+    property real percentage: tipMap[country].tip[tipMap[country].defaultIndex]
     property real total: 0
+    property variant tipMap: TipCustoms.tipMap
 
     signal finalAmountChanged(string amount)
     signal tipAmountChanged(string amount)
@@ -55,14 +57,17 @@ Page {
                 percentValueThree: TipCustoms.tipMap[0].tip[2]
                 width: parent.width
 
-                onReset: percentChanged(
-                             TipCustoms.tipMap[0].tip[TipCustoms.tipMap[0].defaultIndex])
+                onReset: percentChanged(tipMap[country].defaultIndex + 1)
                 onTipPercentOneChanged: if(state) percentage = percentValueOne
                 onTipPercentTwoChanged: if(state) percentage = percentValueTwo
                 onTipPercentThreeChanged: if(state) percentage = percentValueThree
                 onTipPercentFourChanged: {
                     Console.log("Show the custom percent editor")
                     customPercentage.visible = state
+                }
+
+                Component.onCompleted: {
+                    reset()
                 }
             }
 

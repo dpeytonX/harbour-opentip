@@ -22,46 +22,33 @@ Row {
     signal tipPercentThreeChanged(bool state)
     signal tipPercentFourChanged(bool state)
 
-    TextSwitch {
-        automaticCheck: false
+    TipField {
         id: p1
         width: getButtonWidth(parent.width, parent.spacing)
-
-        property real value
 
         onCheckedChanged: tipPercentOneChanged(checked)
         onClicked: percentChanged(1)
     }
 
-    TextSwitch {
-        automaticCheck: false
+    TipField {
         id: p2
         width: getButtonWidth(parent.width, parent.spacing)
-
-        property real value
 
         onCheckedChanged: tipPercentTwoChanged(checked)
         onClicked: percentChanged(2)
     }
 
-    TextSwitch {
-        automaticCheck: false
-        checked: true
+    TipField {
         id: p3
         width: getButtonWidth(parent.width, parent.spacing)
-
-        property real value
 
         onCheckedChanged: tipPercentThreeChanged(checked)
         onClicked: percentChanged(3)
     }
 
-    TextSwitch {
-        automaticCheck: false
+    TipField {
         id: p4
         width: getButtonWidth(parent.width, parent.spacing)
-
-        property real value
 
         onCheckedChanged: tipPercentFourChanged(checked)
         onClicked: percentChanged(4)
