@@ -2,109 +2,45 @@ import QtQuick 2.0
 import Sailfish.Silica 1.0
 import harbour.opentip.QmlLogger 2.0
 
-Row {
-    id: tipButtons
-    spacing: Theme.paddingSmall
+RadioGroup {
+    property string percentTextOne: radio1.text
+    property string percentTextTwo: radio2.text
+    property string percentTextThree: radio3.text
+    property string percentTextFour: radio4.text
+    property variant percentValueOne: radio1.value
+    property variant percentValueTwo: radio2.value
+    property variant percentValueThree: radio3.value
+    property variant percentValueFour: radio4.value
 
-    property alias percentTextOne: p1.text
-    property alias percentTextTwo: p2.text
-    property alias percentTextThree: p3.text
-    property alias percentTextFour: p4.text
-    property alias percentValueOne: p1.value
-    property alias percentValueTwo: p2.value
-    property alias percentValueThree: p3.value
-    property alias percentValueFour: p4.value
-
-    signal reset
     signal percentChanged(int percent)
     signal tipPercentOneChanged(bool state)
     signal tipPercentTwoChanged(bool state)
     signal tipPercentThreeChanged(bool state)
     signal tipPercentFourChanged(bool state)
 
-    TextSwitch {
-        automaticCheck: false
-        id: p1
-        width: getButtonWidth(parent.width, parent.spacing)
-
-        property real value
-
-        onCheckedChanged: tipPercentOneChanged(checked)
-        onClicked: percentChanged(1)
-    }
-
-    TextSwitch {
-        automaticCheck: false
-        id: p2
-        width: getButtonWidth(parent.width, parent.spacing)
-
-        property real value
-
-        onCheckedChanged: tipPercentTwoChanged(checked)
-        onClicked: percentChanged(2)
-    }
-
-    TextSwitch {
-        automaticCheck: false
-        checked: true
-        id: p3
-        width: getButtonWidth(parent.width, parent.spacing)
-
-        property real value
-
-        onCheckedChanged: tipPercentThreeChanged(checked)
-        onClicked: percentChanged(3)
-    }
-
-    TextSwitch {
-        automaticCheck: false
-        id: p4
-        width: getButtonWidth(parent.width, parent.spacing)
-
-        property real value
-
-        onCheckedChanged: tipPercentFourChanged(checked)
-        onClicked: percentChanged(4)
+    onRadioStateChanged: {
+        switch(radio) {
+        case radio1:
+            return tipPercentOneChanged(radio.checked)
+        case radio2:
+            return tipPercentTwoChanged(radio.checked)
+        case radio3:
+            return tipPercentThreeChanged(radio.checked)
+        default:
+            return tipPercentFourChanged(radio.checked)
+        }
     }
 
     onPercentChanged: {
-        Console.debug("TipButtons: percent clicked")
-        if(!(!!percent)) {
-            Console.debug("TipButtons: No percent specified found")
-            return;
-        }
-
-        Console.debug("TipButtons: got percentage " + percent)
-
         switch(percent) {
         case 1:
-            p1.checked = true
-            p2.checked = false
-            p3.checked = false
-            p4.checked = false
-            break
+            return radioClicked(radio1)
         case 2:
-            p2.checked = true
-            p1.checked = false
-            p3.checked = false
-            p4.checked = false
-            break
+            return radioClicked(radio2)
         case 3:
-            p3.checked = true
-            p1.checked = false
-            p2.checked = false
-            p4.checked = false
-            break
+            return radioClicked(radio3)
         default:
-            p4.checked = true
-            p1.checked = false
-            p2.checked = false
-            p3.checked = false
-            break
+            return radioClicked(radio4)
         }
-    }
-
-    function getButtonWidth(parentWidth, parentSpacing) {
-        return parent.width / 4
     }
 }
