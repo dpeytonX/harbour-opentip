@@ -3,11 +3,10 @@ import Sailfish.Silica 1.0
 import harbour.opentip.QmlLogger 2.0
 import harbour.opentip.SailfishWidgets.Components 1.1
 import harbour.opentip.OpenTip 1.0
-import "widgets"
 
 Page {
     id: mainApp
-    property real percentage: tipWidget.defaultPercent
+    property real percentage: TipCustoms.tipMap[0].tip[TipCustoms.tipMap[0].defaultIndex]
     property real total: 0
 
     signal finalAmountChanged(string amount)
@@ -38,12 +37,21 @@ Page {
             TipButtons {
                 anchors.horizontalCenter: parent.horizontalCenter
                 id: tipWidget
+                percentTextOne: TipCustoms.tipMap[0].tip[0]
+                percentTextTwo: TipCustoms.tipMap[0].tip[1]
+                percentTextThree: TipCustoms.tipMap[0].tip[2]
+                percentTextFour: qsTr("%")
+                percentValueOne: TipCustoms.tipMap[0].tip[0]
+                percentValueTwo: TipCustoms.tipMap[0].tip[1]
+                percentValueThree: TipCustoms.tipMap[0].tip[2]
                 width: parent.width
 
-                onFifteenStateChanged: if(state) percentage = 0.15
-                onEighteenStateChanged: if(state) percentage = 0.18
-                onTwentyStateChanged: if(state) percentage = 0.2
-                onOtherStateChanged: {
+                onReset: percentChanged(
+                             TipCustoms.tipMap[0].tip[TipCustoms.tipMap[0].defaultIndex])
+                onTipPercentOneChanged: if(state) percentage = percentValueOne
+                onTipPercentTwoChanged: if(state) percentage = percentValueTwo
+                onTipPercentThreeChanged: if(state) percentage = percentValueThree
+                onTipPercentFourChanged: {
                     Console.log("Show the custom percent editor")
                     customPercentage.visible = state
                 }
@@ -51,13 +59,13 @@ Page {
 
             TextField {
                 id: customPercentage
-                inputMethodHints: Qt.ImhDigitsOnly
+                inputMethodHints: Qt.ImhFormattedNumbersOnly
                 placeholderText: qsTr("Custom Percentage %")
                 visible: false
                 width: parent.width
 
                 onTextChanged: percentage = text / 100
-                validator: IntValidator {
+                validator: DoubleValidator {
                     bottom: 1
                     top: 100
                 }
@@ -100,17 +108,15 @@ Page {
     onTotalChanged: calculate(percentage, total)
 
     function calculate(percentage, total) {
-        Console.info("onTotalChanged()")
-        Console.debug("percentage: " + percentage)
-        Console.debug("total: " + total)
+        Console.debug("MainApp: percentage: " + percentage)
+        Console.debug("MainApp: total: " + total)
 
         resultArea.visible = percentage && total
 
-        //TODO: consider formatting decimal places
-        var tip = total * percentage
+        var tip = percentage / 100 * total
         var result = total + tip
-        Console.debug("tip: " + tip)
-        Console.debug("result: " + result)
+        Console.debug("MainApp: tip: " + tip)
+        Console.debug("MainApp: result: " + result)
 
         resultArea.tipText = tip
         resultArea.finalText = result
