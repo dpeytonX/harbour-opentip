@@ -3,12 +3,11 @@ import Sailfish.Silica 1.0
 import harbour.opentip.QmlLogger 2.0
 
 Row {
-    spacing: Theme.paddingSmall
-
     property alias radio1: p1
     property alias radio2: p2
     property alias radio3: p3
     property alias radio4: p4
+    property real radioMargin: Theme.paddingLarge
     property int radiosVisible: p1.visible + p2.visible + p3.visible + p4.visible
 
     property variant defaultIndex
@@ -21,6 +20,7 @@ Row {
         automaticCheck: false
         checked: defaultIndex == this
         id: p1
+        rightMargin: radioMargin
         visible: !!text
         width: parent.width / radiosVisible
 
@@ -34,6 +34,7 @@ Row {
         automaticCheck: false
         checked: defaultIndex == this
         id: p2
+        rightMargin: radioMargin
         visible: !!text
         width: parent.width / radiosVisible
 
@@ -47,6 +48,7 @@ Row {
         automaticCheck: false
         checked: defaultIndex == this
         id: p3
+        rightMargin: radioMargin
         visible: !!text
         width: parent.width / radiosVisible
 
@@ -60,6 +62,7 @@ Row {
         automaticCheck: false
         checked: defaultIndex == this
         id: p4
+        rightMargin: radioMargin
         visible: !!text
         width: parent.width / radiosVisible
 

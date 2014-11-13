@@ -8,6 +8,8 @@ import OpenTip 1.0
 Page {
     id: settingsPage
 
+    signal countryChanged
+
     ApplicationSettings {id:settings}
 
     PageColumn {
@@ -34,6 +36,7 @@ Page {
             onCurrentIndexChanged: {
                 Console.info("Settings: country index set to " + currentIndex)
                 settings.setTipCountry(currentIndex)
+                countryChanged()
             }
         }
     }
