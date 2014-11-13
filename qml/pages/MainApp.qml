@@ -17,6 +17,8 @@ Page {
 
     ApplicationSettings {id:settings}
 
+    SettingsPage {id: settingsPage}
+
     SilicaFlickable {
         anchors.fill: parent
 
@@ -31,7 +33,7 @@ Page {
             MenuItem {
                 text: qsTr("Settings")
                 onClicked: {
-                    Console.info("MainApp: settings clicked")
+                    pageContainer.push(settingsPage)
                 }
             }
         }
