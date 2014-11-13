@@ -51,19 +51,19 @@
     <name>TipButtons</name>
     <message>
         <source>15</source>
-        <translation>15</translation>
+        <translation type="obsolete">15</translation>
     </message>
     <message>
         <source>18</source>
-        <translation>18</translation>
+        <translation type="obsolete">18</translation>
     </message>
     <message>
         <source>20</source>
-        <translation>20</translation>
+        <translation type="obsolete">20</translation>
     </message>
     <message>
         <source>%</source>
-        <translation>%</translation>
+        <translation type="obsolete">%</translation>
     </message>
 </context>
 </TS>
