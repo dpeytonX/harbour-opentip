@@ -48,25 +48,26 @@ Page {
             TipButtons {
                 anchors.horizontalCenter: parent.horizontalCenter
                 id: tipWidget
-                percentTextOne: TipCustoms.tipMap[0].tip[0]
-                percentTextTwo: TipCustoms.tipMap[0].tip[1]
-                percentTextThree: TipCustoms.tipMap[0].tip[2]
-                percentTextFour: qsTr("%")
-                percentValueOne: TipCustoms.tipMap[0].tip[0]
-                percentValueTwo: TipCustoms.tipMap[0].tip[1]
-                percentValueThree: TipCustoms.tipMap[0].tip[2]
                 width: parent.width
 
                 onReset: percentChanged(tipMap[country].defaultIndex + 1)
-                onTipPercentOneChanged: if(state) percentage = percentValueOne
-                onTipPercentTwoChanged: if(state) percentage = percentValueTwo
-                onTipPercentThreeChanged: if(state) percentage = percentValueThree
+                onTipPercentOneChanged: if(state) percentage = radio1.value + 0.0
+                onTipPercentTwoChanged: if(state) percentage = radio2.value + 0.0
+                onTipPercentThreeChanged: if(state) percentage = radio3.value + 0.0
                 onTipPercentFourChanged: {
                     Console.log("Show the custom percent editor")
+                    if(state) percentage = customPercentage.text * 1.0
                     customPercentage.visible = state
                 }
 
                 Component.onCompleted: {
+                    radio1.text = tipMap[country].tip[0]
+                    radio2.text = tipMap[country].tip[1]
+                    radio3.text = tipMap[country].tip[2]
+                    radio4.text = qsTr("%")
+                    radio1.value = tipMap[country].tip[0]
+                    radio2.value = tipMap[country].tip[1]
+                    radio3.value = tipMap[country].tip[2]
                     reset()
                 }
             }
@@ -78,7 +79,7 @@ Page {
                 visible: false
                 width: parent.width
 
-                onTextChanged: percentage = text / 100
+                onTextChanged: percentage = text * 1.0
                 validator: DoubleValidator {
                     bottom: 1
                     top: 100
