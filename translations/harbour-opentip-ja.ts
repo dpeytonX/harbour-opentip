@@ -54,6 +54,29 @@
         <source>Settings</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>No tip required</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The tipping custom in the country currently selected states that tipping is optional, taboo, or forbidden.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>SettingsPage</name>
+    <message>
+        <source>Settings</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Set tipping custom</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Country</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>TipButtons</name>

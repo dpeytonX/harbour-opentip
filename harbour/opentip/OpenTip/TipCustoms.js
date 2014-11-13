@@ -19,4 +19,6 @@ var TipCustom = function(country, tip, defaultIndex, description) {
     this.description = description
 }
 
-var tipMap = [new TipCustom(qsTr("Default"), [15, 18, 20], 2)]
+var tipMap = [new TipCustom(qsTr("Default"), [15, 18, 20], 2),
+        new TipCustom(qsTr("Finland"), []),
+        new TipCustom(qsTr("USA"), [15, 18, 20], 2)]

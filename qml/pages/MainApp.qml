@@ -8,14 +8,20 @@ import OpenTip 1.0
 Page {
     id: mainApp
     property int country: settings.getTipCountry()
-    property real percentage: tipMap[country].tip[tipMap[country].defaultIndex]
+    property real percentage: tipMap[country].length ? tipMap[country].tip[tipMap[country].defaultIndex] : 0
     property real total: 0
     property variant tipMap: TipCustoms.tipMap
 
     signal finalAmountChanged(string amount)
     signal tipAmountChanged(string amount)
+    signal updateView
 
     ApplicationSettings {id:settings}
+
+    SettingsPage {
+        id: settingsPage
+        onCountryChanged: updateView()
+    }
 
     SilicaFlickable {
         anchors.fill: parent
@@ -31,19 +37,26 @@ Page {
             MenuItem {
                 text: qsTr("Settings")
                 onClicked: {
-                    Console.info("MainApp: settings clicked")
+                    pageContainer.push(settingsPage)
                 }
             }
         }
-
         PageColumn {
+            id: noTipView
             height: parent.height
             title: qsTr("Open Tip")
-            width: parent.width - Theme.paddingLarge
 
-            InformationalLabel {
-                text: qsTr("Select a percentage")
-            }
+            Heading {text:qsTr("No tip required")}
+
+            Paragraph {text: qsTr("The tipping custom in the country currently selected states that tipping is optional, taboo, or forbidden.")}
+        }
+
+        PageColumn {
+            id: tipView
+            height: parent.height
+            title: qsTr("Open Tip")
+
+            InformationalLabel {text: qsTr("Select a percentage")}
 
             TipButtons {
                 anchors.horizontalCenter: parent.horizontalCenter
@@ -58,17 +71,6 @@ Page {
                     Console.log("Show the custom percent editor")
                     if(state) percentage = customPercentage.text * 1.0
                     customPercentage.visible = state
-                }
-
-                Component.onCompleted: {
-                    radio1.text = tipMap[country].tip[0]
-                    radio2.text = tipMap[country].tip[1]
-                    radio3.text = tipMap[country].tip[2]
-                    radio4.text = qsTr("%")
-                    radio1.value = tipMap[country].tip[0]
-                    radio2.value = tipMap[country].tip[1]
-                    radio3.value = tipMap[country].tip[2]
-                    reset()
                 }
             }
 
@@ -121,6 +123,33 @@ Page {
     onPercentageChanged: calculate(percentage, total)
 
     onTotalChanged: calculate(percentage, total)
+
+    onUpdateView: {
+        country = settings.getTipCountry()
+        var tipArray  = tipMap[country].tip
+        Console.info("MainApp: country selected uses tip -> " + !!tipArray.length)
+
+        if(tipArray.length) {
+            noTipView.visible = false
+            tipView.visible = true
+
+            tipWidget.radio1.text = tipArray[0]
+            tipWidget.radio2.text = tipArray.length >= 1 ? tipArray[1] : ""
+            tipWidget.radio3.text = tipArray.length >= 2 ? tipArray[2] : ""
+            tipWidget.radio4.text = qsTr("%")
+            tipWidget.radio1.value = tipArray[0]
+            tipWidget.radio2.value = tipArray.length >= 1 ? tipArray[1] : 0
+            tipWidget.radio3.value = tipArray.length >= 2 ? tipArray[2] : 0
+            tipWidget.reset()
+            total = !!okaikei.text ? okaikei.text : 0
+        } else {
+            noTipView.visible = true
+            tipView.visible = false
+            total = 0
+        }
+    }
+
+    Component.onCompleted: updateView()
 
     function calculate(percentage, total) {
         Console.debug("MainApp: percentage: " + percentage)

@@ -19,7 +19,6 @@ SOURCES += src/harbour-opentip.cpp \
 
 OTHER_FILES += qml/* \
     qml/pages/* \
-    qml/pages/widgets/* \
     qml/cover/* \
     rpm/harbour-opentip.changes.in \
     rpm/harbour-opentip.spec \
