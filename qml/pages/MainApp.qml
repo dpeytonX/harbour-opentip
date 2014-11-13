@@ -3,14 +3,19 @@ import Sailfish.Silica 1.0
 import harbour.opentip.QmlLogger 2.0
 import harbour.opentip.SailfishWidgets.Components 1.1
 import harbour.opentip.OpenTip 1.0
+import OpenTip 1.0
 
 Page {
     id: mainApp
-    property real percentage: TipCustoms.tipMap[0].tip[TipCustoms.tipMap[0].defaultIndex]
+    property real percentage: TipCustoms.tipMap[settings.getTipCountry()].tip[TipCustoms.tipMap[0].defaultIndex]
     property real total: 0
 
     signal finalAmountChanged(string amount)
     signal tipAmountChanged(string amount)
+
+    ApplicationSettings {
+        id:settings
+    }
 
     SilicaFlickable {
         anchors.fill: parent
@@ -21,6 +26,12 @@ Page {
                 onClicked: {
                     tipWidget.reset()
                     okaikei.text = ""
+                }
+            }
+            MenuItem {
+                text: qsTr("Settings")
+                onClicked: {
+                    Console.info("MainApp: settings clicked")
                 }
             }
         }
