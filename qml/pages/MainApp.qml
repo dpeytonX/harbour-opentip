@@ -13,9 +13,7 @@ Page {
     signal finalAmountChanged(string amount)
     signal tipAmountChanged(string amount)
 
-    ApplicationSettings {
-        id:settings
-    }
+    ApplicationSettings {id:settings}
 
     SilicaFlickable {
         anchors.fill: parent
