@@ -44,7 +44,7 @@ int main(int argc, char *argv[])
     //
     // To display the view, call "show()" (will show fullscreen on device).
 
-    qmlRegisterType<ApplicationSettings>("OpenTip", 1, 0, "ApplicationSettings");
+    qmlRegisterType<ApplicationSettings>("harbour.opentip.OpenTip", 1, 0, "ApplicationSettings");
     return SailfishApp::main(argc, argv);
 }
 

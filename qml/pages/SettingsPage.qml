@@ -3,7 +3,6 @@ import Sailfish.Silica 1.0
 import harbour.opentip.SailfishWidgets.Components 1.1
 import harbour.opentip.OpenTip 1.0
 import harbour.opentip.QmlLogger 2.0
-import OpenTip 1.0
 
 Page {
     id: settingsPage
