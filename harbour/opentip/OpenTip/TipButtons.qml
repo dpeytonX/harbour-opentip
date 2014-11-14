@@ -22,6 +22,8 @@ RadioGroup {
     signal tipPercentFourChanged(bool state)
 
     onRadioStateChanged: {
+        if(!radio) return
+
         switch(radio) {
         case radio1:
             return tipPercentOneChanged(radio.checked)

@@ -27,7 +27,7 @@ Page {
 
                     Component.onCompleted: {
                         Console.info("Settings: loaded with country index " + comboSelect.currentIndex)
-                        comboSelect.currentIndex = settings.getTipCountry()
+                        comboSelect.currentIndex = !!settings ? settings.getTipCountry() : comboSelect.currentIndex
                     }
                 }
             }

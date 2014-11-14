@@ -59,7 +59,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>The tipping custom in the country currently selected states that tipping is optional, taboo, or forbidden.</source>
+        <source>The tipping custom in the country currently selected states that tipping is odd, taboo, or forbidden.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

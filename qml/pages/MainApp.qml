@@ -48,7 +48,7 @@ Page {
 
             Heading {text:qsTr("No tip required")}
 
-            Paragraph {text: qsTr("The tipping custom in the country currently selected states that tipping is optional, taboo, or forbidden.")}
+            Paragraph {text: qsTr("The tipping custom in the country currently selected states that tipping is odd, taboo, or forbidden.")}
         }
 
         PageColumn {
@@ -68,7 +68,7 @@ Page {
                 onTipPercentTwoChanged: if(state) percentage = radio2.value + 0.0
                 onTipPercentThreeChanged: if(state) percentage = radio3.value + 0.0
                 onTipPercentFourChanged: {
-                    Console.log("Show the custom percent editor")
+                    Console.info("Show the custom percent editor")
                     if(state) percentage = customPercentage.text * 1.0
                     customPercentage.visible = state
                 }
@@ -141,6 +141,17 @@ Page {
             tipWidget.radio2.value = tipArray.length >= 2 ? tipArray[1] : 0
             tipWidget.radio3.value = tipArray.length >= 3 ? tipArray[2] : 0
             tipWidget.reset()
+
+            // If the default of two countries are the same, force signal
+            var tipButton;
+            switch(tipMap[country].defaultIndex) {
+            case 0: tipButton = tipWidget.radio1; break;
+            case 1: tipButton = tipWidget.radio2; break;
+            case 2: tipButton = tipWidget.radio3; break;
+            default: tipButton = tipWidget.radio4; break;
+            }
+
+            tipWidget.radioStateChanged(tipButton)
             total = !!okaikei.text ? okaikei.text : 0
         } else {
             noTipView.visible = true

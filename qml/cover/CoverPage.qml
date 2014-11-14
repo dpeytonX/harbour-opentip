@@ -9,7 +9,7 @@ StandardCover {
 
     coverTitle: qsTr("Open Tip")
     displayDefault: !info.visible
-    imageSource: "qrc:///images/desktop.png"
+    imageSource: "qrc:///images/cover.png"
 
     Item {
         anchors.fill: parent
@@ -28,4 +28,6 @@ StandardCover {
             visible: !!tip && tip > 0 && !!total && total > 0
         }
     }
+
+    Component.onCompleted: im.opacity = 1
 }

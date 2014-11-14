@@ -1,5 +1,6 @@
 <RCC>
     <qresource prefix="/images">
         <file alias="desktop.png">harbour-opentip.png</file>
+        <file alias="cover.png">cover-opentip.png</file>
     </qresource>
 </RCC>

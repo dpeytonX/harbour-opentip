@@ -12,6 +12,8 @@
 # The name of your application
 TARGET = harbour-opentip
 
+QT += qml
+
 CONFIG += sailfishapp
 
 SOURCES += src/harbour-opentip.cpp \

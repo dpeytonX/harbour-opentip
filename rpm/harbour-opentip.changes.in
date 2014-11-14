@@ -10,3 +10,8 @@
 
 * Thu Oct 30 2014 Dametrious Peyton <dametriouspeyton@countermail.com> 1.0.0-1
 - Tip calculation
+
+* Thu Nov 13 2014 Dametrious Peyton <dametriouspeyton@countermail.com> 1.1.0-1
+- Added tipping custom by country
+- Using Sailfish Widgets 1.1
+- Updated Application and Cover Icon
