@@ -13,11 +13,11 @@ Name:       harbour-opentip
 %{!?qtc_make:%define qtc_make make}
 %{?qtc_builddir:%define _builddir %qtc_builddir}
 Summary:    OpenTip
-Version:    0.1
+Version:    1.1
 Release:    1
 Group:      Qt/Qt
-License:    LICENSE
-URL:        http://example.org/
+License:    GPLv3
+URL:        https://github.com/prplmnky/harbour-opentip
 Source0:    %{name}-%{version}.tar.bz2
 Source100:  harbour-opentip.yaml
 Requires:   sailfishsilica-qt5 >= 0.10.9
@@ -28,7 +28,7 @@ BuildRequires:  pkgconfig(Qt5Quick)
 BuildRequires:  desktop-file-utils
 
 %description
-Short description of my SailfishOS Application
+Open Source Tip Calculator
 
 
 %prep

@@ -22,9 +22,7 @@ SOURCES += src/harbour-opentip.cpp \
 OTHER_FILES += qml/* \
     qml/pages/* \
     qml/cover/* \
-    rpm/harbour-opentip.changes.in \
-    rpm/harbour-opentip.spec \
-    rpm/harbour-opentip.yaml \
+    rpm/* \
     translations/*.ts \
     harbour/opentip/* \
     harbour-opentip.desktop \
