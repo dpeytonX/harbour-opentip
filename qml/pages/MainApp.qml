@@ -134,12 +134,12 @@ Page {
             tipView.visible = true
 
             tipWidget.radio1.text = tipArray[0]
-            tipWidget.radio2.text = tipArray.length >= 1 ? tipArray[1] : ""
-            tipWidget.radio3.text = tipArray.length >= 2 ? tipArray[2] : ""
+            tipWidget.radio2.text = tipArray.length >= 2 ? tipArray[1] : ""
+            tipWidget.radio3.text = tipArray.length >= 3 ? tipArray[2] : ""
             tipWidget.radio4.text = qsTr("%")
             tipWidget.radio1.value = tipArray[0]
-            tipWidget.radio2.value = tipArray.length >= 1 ? tipArray[1] : 0
-            tipWidget.radio3.value = tipArray.length >= 2 ? tipArray[2] : 0
+            tipWidget.radio2.value = tipArray.length >= 2 ? tipArray[1] : 0
+            tipWidget.radio3.value = tipArray.length >= 3 ? tipArray[2] : 0
             tipWidget.reset()
             total = !!okaikei.text ? okaikei.text : 0
         } else {
