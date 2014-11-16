@@ -38,6 +38,8 @@ Page {
         }
     }
 
+    onSettingsChanged: comboSelect.currentIndex = settings.country
+
     function getModel() {
         var countryModel = [];
         for(var i = 0; i < TipCustoms.tipMap.length; i++) {
