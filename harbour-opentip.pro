@@ -16,8 +16,7 @@ QT += qml
 
 CONFIG += sailfishapp
 
-SOURCES += src/harbour-opentip.cpp \
-    src/applicationsettings.cpp
+SOURCES += src/harbour-opentip.cpp
 
 OTHER_FILES += qml/* \
     qml/pages/* \
@@ -42,5 +41,4 @@ TRANSLATIONS += translations/harbour-opentip-ja.ts
 RESOURCES += \
     images.qrc
 
-HEADERS += \
-    src/applicationsettings.h
+HEADERS +=

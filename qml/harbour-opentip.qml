@@ -17,7 +17,7 @@ ApplicationWindow
     cover: CoverPage {id: coverPage}
 
     Component.onCompleted: {
-        Console.LOG_PRIORITY = Console.CRITICAL
+        Console.LOG_PRIORITY = Console.DEBUG
     }
 }
 

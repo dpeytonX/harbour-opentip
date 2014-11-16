@@ -29,5 +29,5 @@ StandardCover {
         }
     }
 
-    Component.onCompleted: im.opacity = 1
+    Component.onCompleted: image.opacity = 1
 }

@@ -2,24 +2,30 @@ import QtQuick 2.0
 import Sailfish.Silica 1.0
 import harbour.opentip.QmlLogger 2.0
 import harbour.opentip.SailfishWidgets.Components 1.1
+import harbour.opentip.SailfishWidgets.Settings 1.1
 import harbour.opentip.OpenTip 1.0
 
 Page {
     id: mainApp
-    property int country: settings.getTipCountry()
+    property alias country: settings.country
     property real percentage: tipMap[country].length ? tipMap[country].tip[tipMap[country].defaultIndex] : 0
     property real total: 0
     property variant tipMap: TipCustoms.tipMap
 
     signal finalAmountChanged(string amount)
     signal tipAmountChanged(string amount)
-    signal updateView
+    signal updateView()
 
-    ApplicationSettings {id:settings}
+    ApplicationSettings {
+        applicationName: "harbour-opentip"
+        fileName: "settings"
+        id:settings
+
+        property int country: 0
+    }
 
     SettingsPage {
         id: settingsPage
-        onCountryChanged: updateView()
     }
 
     SilicaFlickable {
@@ -36,7 +42,7 @@ Page {
             MenuItem {
                 text: qsTr("Settings")
                 onClicked: {
-                    pageContainer.push(settingsPage)
+                    pageContainer.push(settingsPage, {"settings": settings})
                 }
             }
         }
@@ -123,8 +129,9 @@ Page {
 
     onTotalChanged: calculate(percentage, total)
 
+    onCountryChanged: updateView()
+
     onUpdateView: {
-        country = settings.getTipCountry()
         var tipArray  = tipMap[country].tip
         Console.info("MainApp: country selected uses tip -> " + !!tipArray.length)
 
