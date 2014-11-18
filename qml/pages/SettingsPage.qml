@@ -1,15 +1,14 @@
 import QtQuick 2.0
 import Sailfish.Silica 1.0
 import harbour.opentip.SailfishWidgets.Components 1.1
+import harbour.opentip.SailfishWidgets.Settings 1.1
 import harbour.opentip.OpenTip 1.0
 import harbour.opentip.QmlLogger 2.0
 
 Page {
     id: settingsPage
 
-    signal countryChanged
-
-    ApplicationSettings {id:settings}
+    property ApplicationSettings settings
 
     PageColumn {
         title: qsTr("Settings")
@@ -26,7 +25,7 @@ Page {
 
                     Component.onCompleted: {
                         Console.info("Settings: loaded with country index " + comboSelect.currentIndex)
-                        comboSelect.currentIndex = !!settings ? settings.getTipCountry() : comboSelect.currentIndex
+                        comboSelect.currentIndex = !!settings ? settings.country : comboSelect.currentIndex
                     }
                 }
             }
@@ -34,11 +33,12 @@ Page {
 
             onCurrentIndexChanged: {
                 Console.info("Settings: country index set to " + currentIndex)
-                settings.setTipCountry(currentIndex)
-                countryChanged()
+                settings.country = currentIndex
             }
         }
     }
+
+    onSettingsChanged: comboSelect.currentIndex = settings.country
 
     function getModel() {
         var countryModel = [];

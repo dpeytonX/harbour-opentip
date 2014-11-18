@@ -1,0 +1,3 @@
+module harbour.opentip.SailfishWidgets.Settings
+plugin applicationsettings
+typeinfo settings.qmltypes
