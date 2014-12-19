@@ -1,6 +1,5 @@
-import QtQuick 2.0
+import QtQuick 2.1
 import Sailfish.Silica 1.0
-import harbour.opentip.SailfishWidgets.Components 1.1
 
 Item {
     property alias finalText: finalAmount.text
@@ -9,11 +8,12 @@ Item {
     property alias tipTitle: tipHeading.text
 
     Column {
-        Heading {id: tipHeading}
+        width: parent.width
+        SectionHeader {id: tipHeading}
 
         Label {id: tipAmount}
 
-        Heading {id: finalHeading}
+        SectionHeader {id: finalHeading}
 
         Label {id: finalAmount}
     }

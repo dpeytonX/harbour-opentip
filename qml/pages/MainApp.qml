@@ -1,8 +1,8 @@
-import QtQuick 2.0
+import QtQuick 2.1
 import Sailfish.Silica 1.0
 import harbour.opentip.QmlLogger 2.0
-import harbour.opentip.SailfishWidgets.Components 1.1
-import harbour.opentip.SailfishWidgets.Settings 1.1
+import harbour.opentip.SailfishWidgets.Components 1.3
+import harbour.opentip.SailfishWidgets.Settings 1.3
 import harbour.opentip.OpenTip 1.0
 
 Page {
@@ -15,6 +15,7 @@ Page {
     signal finalAmountChanged(string amount)
     signal tipAmountChanged(string amount)
     signal updateView()
+    signal reset()
 
     ApplicationSettings {
         applicationName: "harbour-opentip"
@@ -24,25 +25,23 @@ Page {
         property int country: 0
     }
 
-    SettingsPage {
+    Component { //Lazy load the settings page
         id: settingsPage
+        SettingsPage {}
     }
 
     SilicaFlickable {
         anchors.fill: parent
 
         PullDownMenu {
-            MenuItem {
+            StandardMenuItem {
                 text: qsTr("Reset")
-                onClicked: {
-                    tipWidget.reset()
-                    okaikei.text = ""
-                }
+                onClicked: reset()
             }
-            MenuItem {
+            StandardMenuItem {
                 text: qsTr("Settings")
                 onClicked: {
-                    pageContainer.push(settingsPage, {"settings": settings})
+                    pageContainer.push(settingsPage)
                 }
             }
         }
@@ -130,6 +129,11 @@ Page {
     onTotalChanged: calculate(percentage, total)
 
     onCountryChanged: updateView()
+
+    onReset: {
+        tipWidget.reset()
+        okaikei.text = ""
+    }
 
     onUpdateView: {
         var tipArray  = tipMap[country].tip

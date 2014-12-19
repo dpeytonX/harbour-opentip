@@ -32,15 +32,22 @@
   
   Components
   \list
-  \li \l {Heading}
+  \li \l {AboutPage}
+  \li \l {BusyPage}
   \li \l {InformationalLabel}
+  \li \l {LabelButton}
   \li \l {PageColumn}
   \li \l {Paragraph}
   \li \l {RadioGroup}
+  \li \l {Spacer}
   \li \l {StandardCover}
   \li \l {StandardListView}
   \li \l {StandardMenuItem}
   \li \l {Subtext}
+  \endlist
+  \warning Deprecated!
+  \list
+  \li \l {Heading}
   \endlist
 
   Utilities

@@ -1,15 +1,15 @@
-import QtQuick 2.0
+import QtQuick 2.1
 import Sailfish.Silica 1.0
-import harbour.opentip.SailfishWidgets.Components 1.1
+import harbour.opentip.SailfishWidgets.Components 1.3
 import harbour.opentip.OpenTip 1.0
 
 StandardCover {
-    property string tip
-    property string total
+    property string tip: ""
+    property string total: ""
 
     coverTitle: qsTr("Open Tip")
     displayDefault: !info.visible
-    imageSource: "qrc:///images/cover.png"
+    imageSource: UIConstants.coverIcon
 
     Item {
         anchors.fill: parent

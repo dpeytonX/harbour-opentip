@@ -1,14 +1,26 @@
-import QtQuick 2.0
+import QtQuick 2.1
 import Sailfish.Silica 1.0
-import harbour.opentip.SailfishWidgets.Components 1.1
-import harbour.opentip.SailfishWidgets.Settings 1.1
+import harbour.opentip.SailfishWidgets.Components 1.3
+import harbour.opentip.SailfishWidgets.Settings 1.3
 import harbour.opentip.OpenTip 1.0
 import harbour.opentip.QmlLogger 2.0
 
 Page {
     id: settingsPage
 
-    property ApplicationSettings settings
+    ApplicationSettings {
+        applicationName: "harbour-opentip"
+        fileName: "settings"
+        id:settings
+
+        property int country: 0
+
+        onSettingsPropertyUpdated: {
+            if(name == "country") {
+                comboSelect.currentIndex = country;
+            }
+        }
+    }
 
     PageColumn {
         title: qsTr("Settings")
@@ -37,8 +49,6 @@ Page {
             }
         }
     }
-
-    onSettingsChanged: comboSelect.currentIndex = settings.country
 
     function getModel() {
         var countryModel = [];
