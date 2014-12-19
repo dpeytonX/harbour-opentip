@@ -3,6 +3,7 @@ import Sailfish.Silica 1.0
 import harbour.opentip.QmlLogger 2.0
 import harbour.opentip.SailfishWidgets.Components 1.3
 import harbour.opentip.SailfishWidgets.Settings 1.3
+import harbour.opentip.SailfishWidgets.Utilities 1.3
 import harbour.opentip.OpenTip 1.0
 
 Page {
@@ -25,26 +26,53 @@ Page {
         property int country: 0
     }
 
-    Component { //Lazy load the settings page
+    DynamicLoader {
+        id: loader
+        onObjectCompleted: pageStack.push(object)
+    }
+
+    //Lazy loading for pages
+    Component {
         id: settingsPage
         SettingsPage {}
+    }
+
+    Component {
+        id: aboutPage
+        AboutPage {
+            application: UIConstants.appTitle + " " + UIConstants.appVersion
+            contributors: UIConstants.appContrib
+            copyrightHolder: UIConstants.appCopyrightHolder
+            copyrightYear: UIConstants.appCopyrightYear
+            description: qsTr("Open source tip calculator")
+            icon: UIConstants.appIcon
+            licenses: UIConstants.appLicenses
+            pageTitle: UIConstants.appTitle
+            projectLinks: UIConstants.appLinks
+        }
     }
 
     SilicaFlickable {
         anchors.fill: parent
 
         PullDownMenu {
+
             StandardMenuItem {
                 text: qsTr("Reset")
                 onClicked: reset()
             }
+
             StandardMenuItem {
                 text: qsTr("Settings")
-                onClicked: {
-                    pageContainer.push(settingsPage)
-                }
+                onClicked: loader.create(settingsPage, this, {})
+            }
+
+            StandardMenuItem {
+                text: qsTr("About")
+                onClicked: loader.create(aboutPage, this, {})
             }
         }
+
         PageColumn {
             id: noTipView
             height: parent.height
@@ -106,7 +134,7 @@ Page {
                 }
             }
 
-            Separator {}
+            Spacer {}
 
             CalculationView {
                 anchors.left: parent.left

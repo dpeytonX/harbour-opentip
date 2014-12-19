@@ -62,6 +62,14 @@
         <source>The tipping custom in the country currently selected states that tipping is odd, taboo, or forbidden.</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Open source tip calculator</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>About</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>SettingsPage</name>
