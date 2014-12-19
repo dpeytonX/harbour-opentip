@@ -15,3 +15,9 @@
 - Added tipping custom by country
 - Using Sailfish Widgets 1.1
 - Updated Application and Cover Icon
+
+* Thu Dec 18 2014 Dametrious Peyton <dametriouspeyton@countermail.com> 1.2.0-1
+- Using SWL 1.3
+- Using QtQuick 2.1
+- Added Reset Acction to Cover
+- Added About Page
