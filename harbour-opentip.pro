@@ -29,7 +29,8 @@ OTHER_FILES += qml/* \
     translations/*.ts \
     harbour/opentip/* \
     harbour-opentip.desktop \
-    images.qrc
+    images.qrc \
+    harbour/opentip/OpenTip/TipCustoms.qml
 
 QML_IMPORT_PATH = .
 opentip.files = harbour

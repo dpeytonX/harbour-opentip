@@ -11,7 +11,8 @@ Page {
     property alias country: settings.country
     property real percentage: tipMap[country].length ? tipMap[country].tip[tipMap[country].defaultIndex] : 0
     property real total: 0
-    property variant tipMap: TipCustoms.tipMap
+    property TipCustoms tipCustoms: TipCustoms {}
+    property variant tipMap: tipCustoms.tipMap
 
     signal finalAmountChanged(string amount)
     signal tipAmountChanged(string amount)

@@ -7,6 +7,7 @@ import harbour.opentip.OpenTip 1.0
 import harbour.opentip.QmlLogger 2.0
 
 Page {
+    property TipCustoms tipCustoms: TipCustoms {}
     id: settingsPage
 
     ApplicationSettings {
@@ -81,8 +82,8 @@ Page {
 
     function getModel() {
         var countryModel = [];
-        for(var i = 0; i < TipCustoms.tipMap.length; i++) {
-            countryModel.push(TipCustoms.tipMap[i].country)
+        for(var i = 0; i < tipCustoms.tipMap.length; i++) {
+            countryModel.push(tipCustoms.tipMap[i].country)
         }
         Console.debug("Settings: fetched countryModel " + countryModel)
         return countryModel
