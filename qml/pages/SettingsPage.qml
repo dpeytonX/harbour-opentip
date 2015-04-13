@@ -1,12 +1,12 @@
 import QtQuick 2.1
 import Sailfish.Silica 1.0
-import harbour.opentip.SailfishWidgets.Components 1.3
-import harbour.opentip.SailfishWidgets.Settings 1.3
-import harbour.opentip.SailfishWidgets.Language 1.3
+import harbour.opentip.SailfishWidgets.Components 1.4
+import harbour.opentip.SailfishWidgets.Settings 1.4
+import harbour.opentip.SailfishWidgets.Language 1.4
 import harbour.opentip.OpenTip 1.0
 import harbour.opentip.QmlLogger 2.0
 
-Page {
+OrientationPage {
     property TipCustoms tipCustoms: TipCustoms {}
     id: settingsPage
 

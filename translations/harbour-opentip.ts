@@ -230,7 +230,7 @@
     </message>
     <message>
         <source> Zealand</source>
-        <translation></translation>
+        <translation>New Zealand</translation>
     </message>
     <message>
         <source>Norway</source>
