@@ -59,6 +59,8 @@ OrientationPage {
         PullDownMenu {
 
             StandardMenuItem {
+                enabled: !noTipView.visible
+                visible: !noTipView.visible
                 text: qsTr("Reset")
                 onClicked: reset()
             }

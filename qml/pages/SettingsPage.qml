@@ -11,12 +11,12 @@ OrientationPage {
     id: settingsPage
 
     ApplicationSettings {
-        applicationName: "harbour-opentip"
+        applicationName: UIConstants.appName
         fileName: "settings"
         id:settings
 
         property int country: 0
-        property string locale: ""
+        property string locale: "app"
 
         onSettingsPropertyUpdated: {
             if(name == "country") {
@@ -78,6 +78,14 @@ OrientationPage {
                 }
             }
         }
+    }
+
+    Component.onCompleted: {
+        console.log(settings.locale)
+        console.log(installedLocales.findLocale(settings.locale))
+        console.log(installedLocales.locales.length)
+        for(var i = 0; i < installedLocales.locales.length; i++)
+          console.log(installedLocales.locales[i].locale)
     }
 
     function getModel() {

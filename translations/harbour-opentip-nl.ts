@@ -1,289 +1,296 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="nl_NL" version="2.1">
-<context>
-    <name>Answer</name>
-    <message>
-        <source>rating</source>
-        <translation>Waardering</translation>
-    </message>
-    <message>
-        <source>Rate</source>
-        <translation>Waarderen</translation>
-    </message>
-</context>
-<context>
-    <name>CardDetail</name>
-    <message>
-        <source>Card Details</source>
-        <translation>Kaartdetails</translation>
-    </message>
-    <message>
-        <source>Card Type</source>
-        <translation>Kaarttype</translation>
-    </message>
-    <message>
-        <source>Front To Back</source>
-        <translation>Van voren naar achter</translation>
-    </message>
-    <message>
-        <source>Front to Back, Back to Front</source>
-        <translation>Van voren naar achter, van achter naar voor</translation>
-    </message>
-    <message>
-        <source>Question</source>
-        <translation>Vraag</translation>
-    </message>
-    <message>
-        <source>Answer</source>
-        <translation>Antwoord</translation>
-    </message>
-</context>
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.1" language="nl_NL">
 <context>
     <name>CoverPage</name>
     <message>
-        <source>no database</source>
-        <translation>Geen database</translation>
+        <source>Open Tip</source>
+        <translation>Open Fooi</translation>
     </message>
     <message>
-        <source>No Cards</source>
-        <translation>Geen kaarten</translation>
+        <source>Tip</source>
+        <translation>Fooi</translation>
     </message>
     <message>
-        <source>No search results</source>
-        <translation>Geen zoekresultaten</translation>
-    </message>
-</context>
-<context>
-    <name>Help</name>
-    <message>
-        <source>Help</source>
-        <translation>Hulp</translation>
-    </message>
-    <message>
-        <source>First, copy the mnemosyne.db file from your computer to this device. Then, you may study flash cards here. If you wish, copy the mnemosyne.db back to your computer to resume study there.</source>
-        <translation>Kopieer eerst het mnemosyne.db-bestand van uw computer naar dit apparaat. Daarna kunt u uw studiekaarten hier bestuderen. U kunt, indien gewenst, het mnemosyne.db-bestand achteraf terugkopiëren naar uw computer om daar verder te studeren.</translation>
-    </message>
-    <message>
-        <source>Importing Mnemosyne 2.x Database</source>
-        <translation>Bezig met importeren van Mnemosyne 2.x-database</translation>
-    </message>
-    <message>
-        <source>Starting a New Database</source>
-        <translation>Het starten van een nieuwe database</translation>
-    </message>
-    <message>
-        <source>Score cards by providing a rating from 0 to 5. A rating of 0 indicates that you do not recall ever seeing the card. Whereas, a rating of 5 indicates complete recognition. Your score will determine how frequently a card re-appears in subsequent trainings.</source>
-        <translation>Waardeer kaarten door een waardering tussen 0 en 5 te geven. Een waardering van 0 geeft de indicatie dat u de kaart nog nooit gezien heeft terwijl een waardering van 5 de indicatie geeft dat u hem volledig herkend. Uw score zal bepalen hoe frequent u een kaart terug zult zien komen in de trainingen.</translation>
-    </message>
-    <message>
-        <source>Rating</source>
-        <translation>Waardering</translation>
-    </message>
-    <message>
-        <source>Search</source>
-        <translation>Zoeken</translation>
-    </message>
-    <message>
-        <source>You may search through your card database by typing the search term in the tool bar. Matching cards will be displayed in a list view. Clicking an entry will bring up the question and answer texts.</source>
-        <translation>U kunt zoeken in uw kaartdatabase door een zoekterm op te geven in de werkbalk. Overeenkomende kaarten zullen worden weergegeven in een lijstweergave. Het aanklikken van een invoer zal de vraag en het antwoord naar voren halen.</translation>
-    </message>
-    <message>
-        <source>New databases will be created at the following path: </source>
-        <translation>Nieuwe databases zullen worden gecreëerd op de volgende locatie:</translation>
+        <source>Total</source>
+        <translation>Totaal</translation>
     </message>
 </context>
 <context>
-    <name>Main</name>
+    <name>MainApp</name>
     <message>
-        <source>Mnemosyne 2.x compatible</source>
-        <translation>Mneosyne 2.x-compatibel</translation>
+        <source>Reset</source>
+        <translation>Herstellen</translation>
     </message>
     <message>
-        <source>select database</source>
-        <translation>Selecteer database</translation>
+        <source>Open Tip</source>
+        <translation>Open Fooi</translation>
     </message>
     <message>
-        <source>deselect</source>
-        <translation>Deselecteren</translation>
+        <source>Select a percentage</source>
+        <translation>Selecteer een percentage</translation>
     </message>
     <message>
-        <source>select</source>
-        <translation>Selecteren</translation>
+        <source>Custom Percentage %</source>
+        <translation>Aangepast percentage %</translation>
     </message>
     <message>
-        <source>open existing database</source>
-        <translation>Bestaande database openen</translation>
+        <source>Total before tip</source>
+        <translation>Totaalbedrag zonder fooi</translation>
     </message>
     <message>
-        <source>nemosyne</source>
-        <translation>Nemosyne</translation>
+        <source>Total Amount</source>
+        <translation>Totaalbedrag</translation>
     </message>
     <message>
-        <source>recently used</source>
-        <translation>Recentelijk gebruikt</translation>
+        <source>Tip Amount</source>
+        <translation>Hoogte van fooi</translation>
     </message>
     <message>
-        <source>database could not be opened</source>
-        <translation>De database kon niet worden geopend</translation>
+        <source>%</source>
+        <translation>%</translation>
     </message>
     <message>
-        <source>opening database</source>
-        <translation>Bezig met openen van database</translation>
+        <source>Settings</source>
+        <translation>Instellingen</translation>
     </message>
     <message>
-        <source>database was not provided</source>
-        <translation>De databaseis niet beschikbaar</translation>
+        <source>No tip required</source>
+        <translation>Er is geen fooi nodig</translation>
+    </message>
+    <message>
+        <source>The tipping custom in the country currently selected states that tipping is odd, taboo, or forbidden.</source>
+        <translation>Het gebruik van fooien in het huidige geselecteerde land is vreemd, een taboe of verboden.</translation>
+    </message>
+    <message>
+        <source>Open source tip calculator</source>
+        <translation>Open bron-fooicalculator</translation>
     </message>
     <message>
         <source>About</source>
         <translation>Over</translation>
     </message>
-    <message>
-        <source>new db</source>
-        <translation>Nieuwe database</translation>
-    </message>
-    <message>
-        <source>Help</source>
-        <translation>Hul</translation>
-    </message>
-    <message>
-        <source>database could not be initialized</source>
-        <translation>de database kon niet worden geïnitialiseerd</translation>
-    </message>
-    <message>
-        <source>This action will delete the pre-existing database. Are you sure?</source>
-        <translation>Deze actie zal de bestaande database verwijderen. Weet u dit zeker?</translation>
-    </message>
-    <message>
-        <source>Deleting old database</source>
-        <translation>Bezig met verwijderen van de oude database</translation>
-    </message>
-    <message>
-        <source>A mobile flash card tool</source>
-        <translation>Een mobile studiekaarten-hulpmiddel</translation>
-    </message>
-    <message>
-        <source>Settings</source>
-        <translation>Instellingen</translation>
-    </message>
 </context>
 <context>
-    <name>Question</name>
-    <message>
-        <source>No cards</source>
-        <translation>Geen kaarten</translation>
-    </message>
-    <message>
-        <source>Add Card(s)</source>
-        <translation>Kaart(en) toevoegen</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation>Bewerken</translation>
-    </message>
-    <message>
-        <source>Delete</source>
-        <translation>Verwijderen</translation>
-    </message>
-    <message>
-        <source>Add cards to begin</source>
-        <translation>Kaarten toevoegen aan het beginscherm</translation>
-    </message>
-    <message>
-        <source>Deleting card</source>
-        <translation>Bezig met verwijderen van kaart</translation>
-    </message>
+    <name>SettingsPage</name>
     <message>
         <source>Settings</source>
         <translation>Instellingen</translation>
     </message>
     <message>
-        <source>Search</source>
-        <translation>Zoeken</translation>
-    </message>
-</context>
-<context>
-    <name>Search</name>
-    <message>
-        <source>Search</source>
-        <translation>Zoeken</translation>
-    </message>
-</context>
-<context>
-    <name>Settings</name>
-    <message>
-        <source>Settings</source>
-        <translation>Instellingen</translation>
+        <source>Set tipping custom</source>
+        <translation>Stel aangepaste fooi in</translation>
     </message>
     <message>
-        <source>Font Size</source>
-        <translation>Lettertypegrootte</translation>
-    </message>
-    <message>
-        <source>Rate cards by indicators instead of push-up menu</source>
-        <translation>Kaarten waarderen via indicators i.p.v. het duwmenu</translation>
-    </message>
-    <message>
-        <source>Use Indicators</source>
-        <translation>Indicators gebruiken</translation>
-    </message>
-    <message>
-        <source>Card Reset Time</source>
-        <translation>Kaarthersteltijd</translation>
-    </message>
-    <message>
-        <source>Automatically open the most recently database at launch</source>
-        <translation>Automatisch de meest recente database openen bij opstarten</translation>
-    </message>
-    <message>
-        <source>Quick Launch</source>
-        <translation>Snelle opstart</translation>
-    </message>
-    <message>
-        <source>Language</source>
-        <translation>Taal</translation>
-    </message>
-    <message>
-        <source>Switching languages requires an application restart</source>
-        <translation>Het wijzigen van de taal vereist een herstart van de applicatie</translation>
+        <source>Country</source>
+        <translation>Land</translation>
     </message>
     <message>
         <source>Application Default</source>
         <translation>Applicatiestandaard</translation>
     </message>
     <message>
-        <source>Small</source>
-        <translation>Klein</translation>
+        <source>Switching languages requires an application restart</source>
+        <translation>Om de gekozen taal toe te passen moet u de applicatie herstarten</translation>
     </message>
     <message>
-        <source>Medium</source>
-        <translation>Gemiddeld</translation>
-    </message>
-    <message>
-        <source>Large</source>
-        <translation>Groot</translation>
-    </message>
-    <message>
-        <source>Extra Large</source>
-        <translation>Extra groot</translation>
-    </message>
-    <message>
-        <source>Huge</source>
-        <translation>Enorm</translation>
+        <source>Language</source>
+        <translation>Taal</translation>
     </message>
 </context>
 <context>
-    <name>StatusBar</name>
+    <name>TipCustoms</name>
     <message>
-        <source>scheduled</source>
-        <translation>Ingepland</translation>
+        <source>Default</source>
+        <translation>Standaard</translation>
     </message>
     <message>
-        <source>unmemorized</source>
-        <translation>Niet onthouden</translation>
+        <source>Albania</source>
+        <translation>Albanië</translation>
     </message>
     <message>
-        <source>active</source>
-        <translation>Actief</translation>
+        <source>Argentina</source>
+        <translation>Argentinië</translation>
+    </message>
+    <message>
+        <source>Australia</source>
+        <translation>Australië</translation>
+    </message>
+    <message>
+        <source>Austria</source>
+        <translation>Oostenrijk</translation>
+    </message>
+    <message>
+        <source>Belgium</source>
+        <translation>België</translation>
+    </message>
+    <message>
+        <source>Bolivia</source>
+        <translation>Bolivia</translation>
+    </message>
+    <message>
+        <source>Bosnia</source>
+        <translation>Bosnië</translation>
+    </message>
+    <message>
+        <source>Canada</source>
+        <translation>Canada</translation>
+    </message>
+    <message>
+        <source>Chile</source>
+        <translation>Chili</translation>
+    </message>
+    <message>
+        <source>China</source>
+        <translation>China</translation>
+    </message>
+    <message>
+        <source>Colombia</source>
+        <translation>Colombia</translation>
+    </message>
+    <message>
+        <source>Croatia</source>
+        <translation>Kroatië</translation>
+    </message>
+    <message>
+        <source>Czech Republic</source>
+        <translation>Tjechië</translation>
+    </message>
+    <message>
+        <source>Denmark</source>
+        <translation>Denemarken</translation>
+    </message>
+    <message>
+        <source>Dominican Republic</source>
+        <translation>Dominicaanse Republiek</translation>
+    </message>
+    <message>
+        <source>Finland</source>
+        <translation>Finland</translation>
+    </message>
+    <message>
+        <source>France</source>
+        <translation>Frankrijk</translation>
+    </message>
+    <message>
+        <source>Germany</source>
+        <translation>Duitsland</translation>
+    </message>
+    <message>
+        <source>Greece</source>
+        <translation>Griekenland</translation>
+    </message>
+    <message>
+        <source>Haiti</source>
+        <translation>Haïti</translation>
+    </message>
+    <message>
+        <source>Hungary</source>
+        <translation>Hongarije</translation>
+    </message>
+    <message>
+        <source>Iceland</source>
+        <translation>IJsland</translation>
+    </message>
+    <message>
+        <source>India</source>
+        <translation>India</translation>
+    </message>
+    <message>
+        <source>Ireland</source>
+        <translation>Ierland</translation>
+    </message>
+    <message>
+        <source>Israel</source>
+        <translation>Israël</translation>
+    </message>
+    <message>
+        <source>Italy</source>
+        <translation>Italië</translation>
+    </message>
+    <message>
+        <source>Japan</source>
+        <translation>Japan</translation>
+    </message>
+    <message>
+        <source>Jordan</source>
+        <translation>Jordanië</translation>
+    </message>
+    <message>
+        <source>Malaysia</source>
+        <translation>Maleisië</translation>
+    </message>
+    <message>
+        <source>Mexico</source>
+        <translation>Mexico</translation>
+    </message>
+    <message>
+        <source>Netherlands</source>
+        <translation>Nederland</translation>
+    </message>
+    <message>
+        <source> Zealand</source>
+        <translation>Nieuw-Zeeland</translation>
+    </message>
+    <message>
+        <source>Norway</source>
+        <translation>Noorwegen</translation>
+    </message>
+    <message>
+        <source>Paraguay</source>
+        <translation>Paraguay</translation>
+    </message>
+    <message>
+        <source>Poland</source>
+        <translation>Polen</translation>
+    </message>
+    <message>
+        <source>Portugal</source>
+        <translation>Portugal</translation>
+    </message>
+    <message>
+        <source>Romania</source>
+        <translation>Roemenië</translation>
+    </message>
+    <message>
+        <source>Russia</source>
+        <translation>Rusland</translation>
+    </message>
+    <message>
+        <source>Singapore</source>
+        <translation>Singapore</translation>
+    </message>
+    <message>
+        <source>Slovakia</source>
+        <translation>Slowakije</translation>
+    </message>
+    <message>
+        <source>South Africa</source>
+        <translation>Zuid-Afrika</translation>
+    </message>
+    <message>
+        <source>Spain</source>
+        <translation>Spanje</translation>
+    </message>
+    <message>
+        <source>Sweden</source>
+        <translation>Zweden</translation>
+    </message>
+    <message>
+        <source>Taiwan</source>
+        <translation>Taiwan</translation>
+    </message>
+    <message>
+        <source>Thailand</source>
+        <translation>Thailand</translation>
+    </message>
+    <message>
+        <source>United Kingdom</source>
+        <translation>Verenigd Koninkrijk</translation>
+    </message>
+    <message>
+        <source>United States</source>
+        <translation>Verenigde Staten</translation>
     </message>
 </context>
 </TS>
