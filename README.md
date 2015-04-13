@@ -5,7 +5,6 @@ Open source tip calculator for SailfishOS / Jolla Mobile.
 
 This project is GPLv3 unless otherwise indicated on the file itself. Files with other licenses are copyrighted to their respective owners.
 
-Version 1.2
 <p>
 <img src="http://www.gnu.org/graphics/gplv3-127x51.png" width="254" height="102" />
 
@@ -32,4 +31,4 @@ You can contribute in one of two ways:
 <code>1PFqgHeGrtXLYvMge2mTT1FohKuuoKmUN5</code>
 
 <br>
-Copyright ©2014 Dametrious Peyton. All Rights Reserved
+Copyright ©2014-2015 Dametrious Peyton. All Rights Reserved
