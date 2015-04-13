@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1">
+<TS version="2.1" language="ja">
 <context>
     <name>CoverPage</name>
     <message>
         <source>Open Tip</source>
-        <translation>オペン・ティップ</translation>
+        <translation>オーペン・ティップ</translation>
     </message>
     <message>
         <source>Tip</source>
@@ -20,11 +20,11 @@
     <name>MainApp</name>
     <message>
         <source>Reset</source>
-        <translation>戻す</translation>
+        <translation>リセット</translation>
     </message>
     <message>
         <source>Open Tip</source>
-        <translation>オペン・ティップ</translation>
+        <translation>オーペン・ティップ</translation>
     </message>
     <message>
         <source>Select a percentage</source>
@@ -102,11 +102,11 @@
     <name>TipCustoms</name>
     <message>
         <source>Default</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">規定</translation>
     </message>
     <message>
         <source>Albania</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">アルバニア</translation>
     </message>
     <message>
         <source>Argentina</source>
@@ -114,11 +114,11 @@
     </message>
     <message>
         <source>Australia</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">オーストラリア</translation>
     </message>
     <message>
         <source>Austria</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">オーストリア</translation>
     </message>
     <message>
         <source>Belgium</source>
@@ -134,7 +134,7 @@
     </message>
     <message>
         <source>Canada</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">カナダ</translation>
     </message>
     <message>
         <source>Chile</source>
@@ -142,7 +142,7 @@
     </message>
     <message>
         <source>China</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">中国</translation>
     </message>
     <message>
         <source>Colombia</source>
@@ -170,11 +170,11 @@
     </message>
     <message>
         <source>France</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">フランス</translation>
     </message>
     <message>
         <source>Germany</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">ドイツ</translation>
     </message>
     <message>
         <source>Greece</source>
@@ -194,7 +194,7 @@
     </message>
     <message>
         <source>India</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">インド</translation>
     </message>
     <message>
         <source>Ireland</source>
@@ -210,7 +210,7 @@
     </message>
     <message>
         <source>Japan</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">日本</translation>
     </message>
     <message>
         <source>Jordan</source>
@@ -254,7 +254,7 @@
     </message>
     <message>
         <source>Russia</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">ロシア</translation>
     </message>
     <message>
         <source>Singapore</source>
@@ -270,7 +270,7 @@
     </message>
     <message>
         <source>Spain</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">スペイン</translation>
     </message>
     <message>
         <source>Sweden</source>
@@ -278,7 +278,7 @@
     </message>
     <message>
         <source>Taiwan</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">台湾</translation>
     </message>
     <message>
         <source>Thailand</source>
@@ -286,11 +286,11 @@
     </message>
     <message>
         <source>United Kingdom</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">英国</translation>
     </message>
     <message>
         <source>United States</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">アメリカ</translation>
     </message>
 </context>
 </TS>

@@ -1,22 +1,22 @@
 import QtQuick 2.1
 import Sailfish.Silica 1.0
-import harbour.opentip.SailfishWidgets.Components 1.3
-import harbour.opentip.SailfishWidgets.Settings 1.3
-import harbour.opentip.SailfishWidgets.Language 1.3
+import harbour.opentip.SailfishWidgets.Components 1.4
+import harbour.opentip.SailfishWidgets.Settings 1.4
+import harbour.opentip.SailfishWidgets.Language 1.4
 import harbour.opentip.OpenTip 1.0
 import harbour.opentip.QmlLogger 2.0
 
-Page {
+OrientationPage {
     property TipCustoms tipCustoms: TipCustoms {}
     id: settingsPage
 
     ApplicationSettings {
-        applicationName: "harbour-opentip"
+        applicationName: UIConstants.appName
         fileName: "settings"
         id:settings
 
         property int country: 0
-        property string locale: ""
+        property string locale: "app"
 
         onSettingsPropertyUpdated: {
             if(name == "country") {
@@ -78,6 +78,14 @@ Page {
                 }
             }
         }
+    }
+
+    Component.onCompleted: {
+        console.log(settings.locale)
+        console.log(installedLocales.findLocale(settings.locale))
+        console.log(installedLocales.locales.length)
+        for(var i = 0; i < installedLocales.locales.length; i++)
+          console.log(installedLocales.locales[i].locale)
     }
 
     function getModel() {

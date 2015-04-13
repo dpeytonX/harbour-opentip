@@ -1,6 +1,6 @@
 import QtQuick 2.1
 import Sailfish.Silica 1.0
-import harbour.opentip.SailfishWidgets.Components 1.3
+import harbour.opentip.SailfishWidgets.Components 1.4
 import harbour.opentip.OpenTip 1.0
 
 StandardCover {
