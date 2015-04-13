@@ -20,89 +20,82 @@
     <name>MainApp</name>
     <message>
         <source>Reset</source>
-        <translation type="unfinished">Reset</translation>
+        <traslation></translation>
     </message>
     <message>
         <source>Open Tip</source>
-        <translation type="unfinished">Open Tip</translation>
+        <traslation></translation>
     </message>
     <message>
         <source>Select a percentage</source>
-        <translation type="unfinished">Select a percentage</translation>
+        <traslation></translation>
     </message>
     <message>
         <source>Custom Percentage %</source>
-        <translation type="unfinished">Custom Percentage %</translation>
+        <traslation></translation>
     </message>
     <message>
         <source>Total before tip</source>
-        <translation type="unfinished">Total before tip</translation>
+        <traslation></translation>
     </message>
     <message>
         <source>Total Amount</source>
-        <translation type="unfinished">Total Amount</translation>
+        <traslation></translation>
     </message>
     <message>
         <source>Tip Amount</source>
-        <translation type="unfinished">Tip Amount</translation>
+        <traslation></translation>
     </message>
     <message>
         <source>%</source>
-        <translation type="unfinished">%</translation>
+        <traslation></translation>
     </message>
     <message>
         <source>Settings</source>
-        <translation type="unfinished"></translation>
+        <traslation></translation>
     </message>
     <message>
         <source>No tip required</source>
-        <translation type="unfinished"></translation>
+        <traslation></translation>
     </message>
     <message>
         <source>The tipping custom in the country currently selected states that tipping is odd, taboo, or forbidden.</source>
-        <translation type="unfinished"></translation>
+        <traslation></translation>
     </message>
     <message>
         <source>Open source tip calculator</source>
-        <translation type="unfinished"></translation>
+        <traslation></translation>
     </message>
     <message>
         <source>About</source>
-        <translation type="unfinished"></translation>
+        <traslation></translation>
     </message>
 </context>
 <context>
     <name>SettingsPage</name>
     <message>
         <source>Settings</source>
-        <translation type="unfinished"></translation>
+        <traslation></translation>
     </message>
     <message>
         <source>Set tipping custom</source>
-        <translation type="unfinished"></translation>
+        <traslation></translation>
     </message>
     <message>
         <source>Country</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>TipButtons</name>
-    <message>
-        <source>15</source>
-        <translation type="obsolete">15</translation>
+        <traslation></translation>
     </message>
     <message>
-        <source>18</source>
-        <translation type="obsolete">18</translation>
+        <source>Application Default</source>
+        <traslation></translation>
     </message>
     <message>
-        <source>20</source>
-        <translation type="obsolete">20</translation>
+        <source>Switching languages requires an application restart</source>
+        <traslation></translation>
     </message>
     <message>
-        <source>%</source>
-        <translation type="obsolete">%</translation>
+        <source>Language</source>
+        <traslation></translation>
     </message>
 </context>
 </TS>

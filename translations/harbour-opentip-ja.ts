@@ -20,89 +20,82 @@
     <name>MainApp</name>
     <message>
         <source>Reset</source>
-        <translation type="unfinished">戻す</translation>
+        <translation>戻す</translation>
     </message>
     <message>
         <source>Open Tip</source>
-        <translation type="unfinished">オペン・ティップ</translation>
+        <translation>オペン・ティップ</translation>
     </message>
     <message>
         <source>Select a percentage</source>
-        <translation type="unfinished">割合を選択</translation>
+        <translation>割合を選択</translation>
     </message>
     <message>
         <source>Custom Percentage %</source>
-        <translation type="unfinished">割合を指定</translation>
+        <translation>割合を指定</translation>
     </message>
     <message>
         <source>Total before tip</source>
-        <translation type="unfinished">ティップ以前の金額</translation>
+        <translation>ティップ以前の金額</translation>
     </message>
     <message>
         <source>Total Amount</source>
-        <translation type="unfinished">全額</translation>
+        <translation>全額</translation>
     </message>
     <message>
         <source>Tip Amount</source>
-        <translation type="unfinished">ティップの金額</translation>
+        <translation>ティップの金額</translation>
     </message>
     <message>
         <source>%</source>
-        <translation type="unfinished">%</translation>
+        <translation>%</translation>
     </message>
     <message>
         <source>Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>設定</translation>
     </message>
     <message>
         <source>No tip required</source>
-        <translation type="unfinished"></translation>
+        <translation>ティップは不必要です</translation>
     </message>
     <message>
         <source>The tipping custom in the country currently selected states that tipping is odd, taboo, or forbidden.</source>
-        <translation type="unfinished"></translation>
+        <translation>選択した国にはティップする習慣はありません。あるいは、ティップをするのはおかしいいか気を悪くすることです。</translation>
     </message>
     <message>
         <source>Open source tip calculator</source>
-        <translation type="unfinished"></translation>
+        <translation>オーペンソースなティップ計算機</translation>
     </message>
     <message>
         <source>About</source>
-        <translation type="unfinished"></translation>
+        <translation>このアップリについて</translation>
     </message>
 </context>
 <context>
     <name>SettingsPage</name>
     <message>
         <source>Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>設定</translation>
     </message>
     <message>
         <source>Set tipping custom</source>
-        <translation type="unfinished"></translation>
+        <translation>ティップの習慣を選択</translation>
     </message>
     <message>
         <source>Country</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>TipButtons</name>
-    <message>
-        <source>15</source>
-        <translation type="obsolete">15</translation>
+        <translation>国</translation>
     </message>
     <message>
-        <source>18</source>
-        <translation type="obsolete">18</translation>
+        <source>Application Default</source>
+        <translation>アップリの規定</translation>
     </message>
     <message>
-        <source>20</source>
-        <translation type="obsolete">20</translation>
+        <source>Switching languages requires an application restart</source>
+        <translation>言語を変えるにはアップリの再起動が必要</translation>
     </message>
     <message>
-        <source>%</source>
-        <translation type="obsolete">%</translation>
+        <source>Language</source>
+        <translation>言語</translation>
     </message>
 </context>
 </TS>
