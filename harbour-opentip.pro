@@ -53,7 +53,8 @@ linux {
 # following CONFIG line
 CONFIG += sailfishapp_i18n
 TRANSLATIONS += translations/harbour-opentip.ts \
-                translations/harbour-opentip-ja.ts
+                translations/harbour-opentip-ja.ts \
+                translations/harbour-opentip-nl.ts
 
 RESOURCES += \
     images.qrc
