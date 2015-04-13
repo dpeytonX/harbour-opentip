@@ -29,7 +29,7 @@
 */
 
 #include <QtQuick>
-#include <sailfishapp.h>
+#include <sailfishmain.h>
 
 int main(int argc, char *argv[])
 {
@@ -42,6 +42,6 @@ int main(int argc, char *argv[])
     //
     // To display the view, call "show()" (will show fullscreen on device).
 
-    return SailfishApp::main(argc, argv);
+    return SailfishMain::main(argc, argv, "harbour-opentip", "settings", "locale");
 }
 

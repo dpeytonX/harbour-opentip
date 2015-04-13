@@ -20,89 +20,277 @@
     <name>MainApp</name>
     <message>
         <source>Reset</source>
-        <translation type="unfinished">戻す</translation>
+        <translation>戻す</translation>
     </message>
     <message>
         <source>Open Tip</source>
-        <translation type="unfinished">オペン・ティップ</translation>
+        <translation>オペン・ティップ</translation>
     </message>
     <message>
         <source>Select a percentage</source>
-        <translation type="unfinished">割合を選択</translation>
+        <translation>割合を選択</translation>
     </message>
     <message>
         <source>Custom Percentage %</source>
-        <translation type="unfinished">割合を指定</translation>
+        <translation>割合を指定</translation>
     </message>
     <message>
         <source>Total before tip</source>
-        <translation type="unfinished">ティップ以前の金額</translation>
+        <translation>ティップ以前の金額</translation>
     </message>
     <message>
         <source>Total Amount</source>
-        <translation type="unfinished">全額</translation>
+        <translation>全額</translation>
     </message>
     <message>
         <source>Tip Amount</source>
-        <translation type="unfinished">ティップの金額</translation>
+        <translation>ティップの金額</translation>
     </message>
     <message>
         <source>%</source>
-        <translation type="unfinished">%</translation>
+        <translation>%</translation>
     </message>
     <message>
         <source>Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>設定</translation>
     </message>
     <message>
         <source>No tip required</source>
-        <translation type="unfinished"></translation>
+        <translation>ティップは不必要です</translation>
     </message>
     <message>
         <source>The tipping custom in the country currently selected states that tipping is odd, taboo, or forbidden.</source>
-        <translation type="unfinished"></translation>
+        <translation>選択した国にはティップする習慣はありません。あるいは、ティップをするのはおかしいいか気を悪くすることです。</translation>
     </message>
     <message>
         <source>Open source tip calculator</source>
-        <translation type="unfinished"></translation>
+        <translation>オーペンソースなティップ計算機</translation>
     </message>
     <message>
         <source>About</source>
-        <translation type="unfinished"></translation>
+        <translation>このアップリについて</translation>
     </message>
 </context>
 <context>
     <name>SettingsPage</name>
     <message>
         <source>Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>設定</translation>
     </message>
     <message>
         <source>Set tipping custom</source>
-        <translation type="unfinished"></translation>
+        <translation>ティップの習慣を選択</translation>
     </message>
     <message>
         <source>Country</source>
-        <translation type="unfinished"></translation>
+        <translation>国</translation>
+    </message>
+    <message>
+        <source>Application Default</source>
+        <translation>アップリの規定</translation>
+    </message>
+    <message>
+        <source>Switching languages requires an application restart</source>
+        <translation>言語を変えるにはアップリの再起動が必要</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>言語</translation>
     </message>
 </context>
 <context>
-    <name>TipButtons</name>
+    <name>TipCustoms</name>
     <message>
-        <source>15</source>
-        <translation type="obsolete">15</translation>
+        <source>Default</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>18</source>
-        <translation type="obsolete">18</translation>
+        <source>Albania</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>20</source>
-        <translation type="obsolete">20</translation>
+        <source>Argentina</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>%</source>
-        <translation type="obsolete">%</translation>
+        <source>Australia</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Austria</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Belgium</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Bolivia</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Bosnia</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Canada</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Chile</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>China</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Colombia</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Croatia</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Czech Republic</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Denmark</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Dominican Republic</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Finland</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>France</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Germany</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Greece</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Haiti</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Hungary</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Iceland</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>India</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Ireland</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Israel</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Italy</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Japan</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Jordan</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Malaysia</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Mexico</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Netherlands</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source> Zealand</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Norway</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Paraguay</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Poland</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Portugal</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Romania</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Russia</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Singapore</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Slovakia</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>South Africa</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Spain</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sweden</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Taiwan</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Thailand</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>United Kingdom</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>United States</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>

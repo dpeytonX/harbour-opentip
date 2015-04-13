@@ -3,7 +3,7 @@
   \title Sailfish Widgets
   \brief Sailfish Library Extension
 
-  SailfishWidgets 1.3
+  SailfishWidgets 1.3.4
 
   This is a library that aims to speed up Sailfish OS Development
 
@@ -37,6 +37,7 @@
   \li \l {InformationalLabel}
   \li \l {LabelButton}
   \li \l {PageColumn}
+  \li \l {PageIndicator}
   \li \l {Paragraph}
   \li \l {RadioGroup}
   \li \l {Spacer}
@@ -74,13 +75,37 @@
   \li \l {FileSelector}
   \endlist
 
+  Database
+  \list
+  \li \l {SQLiteDatabase} (Native Plugin)
+  \li \l {Query} (Native Plugin)
+  \endlist
+
+  Language
+  \list
+  \li \l {InstalledLocales} (Native Plugin)
+  \li \l {LocaleItem} (Native Plugin)
+  \li \l {DefaultLocale} (Native Plugin)
+  \endlist
+
+  Core
+  \list
+  \li \l {SailfishMain} (Native)
+  \endlist
+
   C++ Documentation
   \list
   \li \l {ApplicationSettings}
   \li \l {QmlPropertyWrapper}
   \li \l {Dir}
   \li \l {File}
+  \li \l {SQLiteDatabase}
+  \li \l {Query}
+  \li \l {InstalledLocales}
+  \li \l {LocaleItem}
+  \li \l {DefaultLocale}
+  \li \l {SailfishMain}
   \endlist
 
-  Change List \l {ChangeList}
+  \l {ChangeList}
 */

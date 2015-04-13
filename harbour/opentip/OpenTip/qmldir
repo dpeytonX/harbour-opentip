@@ -2,5 +2,5 @@ module harbour.opentip.OpenTip
 
 CalculationView 1.0 CalculationView.qml
 TipButtons 1.0 TipButtons.qml
-TipCustoms 1.0 TipCustoms.js
+TipCustoms 1.0 TipCustoms.qml
 UIConstants 1.0 UIConstants.js

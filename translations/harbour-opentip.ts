@@ -20,89 +20,277 @@
     <name>MainApp</name>
     <message>
         <source>Reset</source>
-        <translation type="unfinished">Reset</translation>
+        <translation></translation>
     </message>
     <message>
         <source>Open Tip</source>
-        <translation type="unfinished">Open Tip</translation>
+        <translation></translation>
     </message>
     <message>
         <source>Select a percentage</source>
-        <translation type="unfinished">Select a percentage</translation>
+        <translation></translation>
     </message>
     <message>
         <source>Custom Percentage %</source>
-        <translation type="unfinished">Custom Percentage %</translation>
+        <translation></translation>
     </message>
     <message>
         <source>Total before tip</source>
-        <translation type="unfinished">Total before tip</translation>
+        <translation></translation>
     </message>
     <message>
         <source>Total Amount</source>
-        <translation type="unfinished">Total Amount</translation>
+        <translation></translation>
     </message>
     <message>
         <source>Tip Amount</source>
-        <translation type="unfinished">Tip Amount</translation>
+        <translation></translation>
     </message>
     <message>
         <source>%</source>
-        <translation type="unfinished">%</translation>
+        <translation></translation>
     </message>
     <message>
         <source>Settings</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <source>No tip required</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <source>The tipping custom in the country currently selected states that tipping is odd, taboo, or forbidden.</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <source>Open source tip calculator</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <source>About</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
 </context>
 <context>
     <name>SettingsPage</name>
     <message>
         <source>Settings</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <source>Set tipping custom</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <source>Country</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Application Default</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Switching languages requires an application restart</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation></translation>
     </message>
 </context>
 <context>
-    <name>TipButtons</name>
+    <name>TipCustoms</name>
     <message>
-        <source>15</source>
-        <translation type="obsolete">15</translation>
+        <source>Default</source>
+        <translation></translation>
     </message>
     <message>
-        <source>18</source>
-        <translation type="obsolete">18</translation>
+        <source>Albania</source>
+        <translation></translation>
     </message>
     <message>
-        <source>20</source>
-        <translation type="obsolete">20</translation>
+        <source>Argentina</source>
+        <translation></translation>
     </message>
     <message>
-        <source>%</source>
-        <translation type="obsolete">%</translation>
+        <source>Australia</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Austria</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Belgium</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Bolivia</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Bosnia</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Canada</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Chile</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>China</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Colombia</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Croatia</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Czech Republic</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Denmark</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Dominican Republic</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Finland</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>France</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Germany</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Greece</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Haiti</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Hungary</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Iceland</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>India</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Ireland</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Israel</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Italy</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Japan</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Jordan</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Malaysia</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Mexico</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Netherlands</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source> Zealand</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Norway</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Paraguay</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Poland</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Portugal</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Romania</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Russia</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Singapore</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Slovakia</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>South Africa</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Spain</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Sweden</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Taiwan</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Thailand</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>United Kingdom</source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>United States</source>
+        <translation></translation>
     </message>
 </context>
 </TS>
