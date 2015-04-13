@@ -8,5 +8,5 @@ var appContrib = ["Dametrious Peyton"]
 var appCopyrightHolder = "Dametrious Peyton"
 var appCopyrightYear = 2014-2015
 var appLicenses = ["GPL v3"]
-var appVersion = 1.3.0
+var appVersion = "1.3.0"
 var appLinks = ["https://github.com/prplmnky/harbour-opentip"]
