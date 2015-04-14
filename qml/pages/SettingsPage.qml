@@ -59,6 +59,7 @@ OrientationPage {
             }
         }
 
+
         ComboBox {
             id: languageCombo
             description: qsTr("Switching languages requires an application restart")
@@ -79,6 +80,8 @@ OrientationPage {
             }
         }
     }
+
+    OrientationHelper {}
 
     Component.onCompleted: {
         console.log(settings.locale)

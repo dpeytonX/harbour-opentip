@@ -55,6 +55,7 @@ OrientationPage {
 
     SilicaFlickable {
         anchors.fill: parent
+        contentHeight: noTipView.visible ? noTipView.height : tipView.height
 
         PullDownMenu {
 
@@ -153,6 +154,8 @@ OrientationPage {
                 onFinalTextChanged: finalAmountChanged(finalText)
             }
         }
+
+        VerticalScrollDecorator {}
     }
 
     onPercentageChanged: calculate(percentage, total)

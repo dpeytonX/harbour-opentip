@@ -6,6 +6,8 @@ import harbour.opentip.OpenTip 1.0
 StandardCover {
     property string tip: ""
     property string total: ""
+    label.font.pixelSize: Theme.fontSizeSmall
+
 
     coverTitle: qsTr("Open Tip")
     displayDefault: !info.visible

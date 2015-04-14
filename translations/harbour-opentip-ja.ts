@@ -102,195 +102,195 @@
     <name>TipCustoms</name>
     <message>
         <source>Default</source>
-        <translation type="unfinished">規定</translation>
+        <translation>規定</translation>
     </message>
     <message>
         <source>Albania</source>
-        <translation type="unfinished">アルバニア</translation>
+        <translation>アルバニア</translation>
     </message>
     <message>
         <source>Argentina</source>
-        <translation type="unfinished"></translation>
+        <translation>アルゼンチン</translation>
     </message>
     <message>
         <source>Australia</source>
-        <translation type="unfinished">オーストラリア</translation>
+        <translation>オーストラリア</translation>
     </message>
     <message>
         <source>Austria</source>
-        <translation type="unfinished">オーストリア</translation>
+        <translation>オーストリア</translation>
     </message>
     <message>
         <source>Belgium</source>
-        <translation type="unfinished"></translation>
+        <translation>ベルギー</translation>
     </message>
     <message>
         <source>Bolivia</source>
-        <translation type="unfinished"></translation>
+        <translation>ボリビア</translation>
     </message>
     <message>
         <source>Bosnia</source>
-        <translation type="unfinished"></translation>
+        <translation>ボスニア</translation>
     </message>
     <message>
         <source>Canada</source>
-        <translation type="unfinished">カナダ</translation>
+        <translation>カナダ</translation>
     </message>
     <message>
         <source>Chile</source>
-        <translation type="unfinished"></translation>
+        <translation>チリ</translation>
     </message>
     <message>
         <source>China</source>
-        <translation type="unfinished">中国</translation>
+        <translation>中国</translation>
     </message>
     <message>
         <source>Colombia</source>
-        <translation type="unfinished"></translation>
+        <translation>コロンビア</translation>
     </message>
     <message>
         <source>Croatia</source>
-        <translation type="unfinished"></translation>
+        <translation>クロアチア</translation>
     </message>
     <message>
         <source>Czech Republic</source>
-        <translation type="unfinished"></translation>
+        <translation>チェコ</translation>
     </message>
     <message>
         <source>Denmark</source>
-        <translation type="unfinished"></translation>
+        <translation>デンマーク</translation>
     </message>
     <message>
         <source>Dominican Republic</source>
-        <translation type="unfinished"></translation>
+        <translation>ドミニカ共和国</translation>
     </message>
     <message>
         <source>Finland</source>
-        <translation type="unfinished"></translation>
+        <translation>フィンランド</translation>
     </message>
     <message>
         <source>France</source>
-        <translation type="unfinished">フランス</translation>
+        <translation>フランス</translation>
     </message>
     <message>
         <source>Germany</source>
-        <translation type="unfinished">ドイツ</translation>
+        <translation>ドイツ</translation>
     </message>
     <message>
         <source>Greece</source>
-        <translation type="unfinished"></translation>
+        <translation>ギリシア</translation>
     </message>
     <message>
         <source>Haiti</source>
-        <translation type="unfinished"></translation>
+        <translation>ハイチ</translation>
     </message>
     <message>
         <source>Hungary</source>
-        <translation type="unfinished"></translation>
+        <translation>ハンガリー</translation>
     </message>
     <message>
         <source>Iceland</source>
-        <translation type="unfinished"></translation>
+        <translation>アイスランド</translation>
     </message>
     <message>
         <source>India</source>
-        <translation type="unfinished">インド</translation>
+        <translation>インド</translation>
     </message>
     <message>
         <source>Ireland</source>
-        <translation type="unfinished"></translation>
+        <translation>アイルランド</translation>
     </message>
     <message>
         <source>Israel</source>
-        <translation type="unfinished"></translation>
+        <translation>イスラエル</translation>
     </message>
     <message>
         <source>Italy</source>
-        <translation type="unfinished"></translation>
+        <translation>イタリア</translation>
     </message>
     <message>
         <source>Japan</source>
-        <translation type="unfinished">日本</translation>
+        <translation>日本</translation>
     </message>
     <message>
         <source>Jordan</source>
-        <translation type="unfinished"></translation>
+        <translation>ヨルダン</translation>
     </message>
     <message>
         <source>Malaysia</source>
-        <translation type="unfinished"></translation>
+        <translation>マレーシア</translation>
     </message>
     <message>
         <source>Mexico</source>
-        <translation type="unfinished"></translation>
+        <translation>メキシコ</translation>
     </message>
     <message>
         <source>Netherlands</source>
-        <translation type="unfinished"></translation>
+        <translation>ホラント</translation>
     </message>
     <message>
         <source> Zealand</source>
-        <translation type="unfinished"></translation>
+        <translation>ニュージーランド</translation>
     </message>
     <message>
         <source>Norway</source>
-        <translation type="unfinished"></translation>
+        <translation>ノルウェー</translation>
     </message>
     <message>
         <source>Paraguay</source>
-        <translation type="unfinished"></translation>
+        <translation>パラグアイ</translation>
     </message>
     <message>
         <source>Poland</source>
-        <translation type="unfinished"></translation>
+        <translation>ポーランド</translation>
     </message>
     <message>
         <source>Portugal</source>
-        <translation type="unfinished"></translation>
+        <translation>ポルトガル</translation>
     </message>
     <message>
         <source>Romania</source>
-        <translation type="unfinished"></translation>
+        <translation>ルーマニア</translation>
     </message>
     <message>
         <source>Russia</source>
-        <translation type="unfinished">ロシア</translation>
+        <translation>ロシア</translation>
     </message>
     <message>
         <source>Singapore</source>
-        <translation type="unfinished"></translation>
+        <translation>シンガポール</translation>
     </message>
     <message>
         <source>Slovakia</source>
-        <translation type="unfinished"></translation>
+        <translation>スロバキア</translation>
     </message>
     <message>
         <source>South Africa</source>
-        <translation type="unfinished"></translation>
+        <translation>南アフリカ</translation>
     </message>
     <message>
         <source>Spain</source>
-        <translation type="unfinished">スペイン</translation>
+        <translation>スペイン</translation>
     </message>
     <message>
         <source>Sweden</source>
-        <translation type="unfinished"></translation>
+        <translation>スウェーデン</translation>
     </message>
     <message>
         <source>Taiwan</source>
-        <translation type="unfinished">台湾</translation>
+        <translation>台湾</translation>
     </message>
     <message>
         <source>Thailand</source>
-        <translation type="unfinished"></translation>
+        <translation>タイ国</translation>
     </message>
     <message>
         <source>United Kingdom</source>
-        <translation type="unfinished">英国</translation>
+        <translation>英国</translation>
     </message>
     <message>
         <source>United States</source>
-        <translation type="unfinished">アメリカ</translation>
+        <translation>アメリカ</translation>
     </message>
 </context>
 </TS>
