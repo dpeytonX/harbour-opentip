@@ -13,6 +13,7 @@ To get the latest updates you can always download this project and compile a bin
 
 <h3>Stable Releases</h3>
 <ul>
+  <li>Version 1.3</li>
   <li>Version 1.1</li>
 </ul>
 
