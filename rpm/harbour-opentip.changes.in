@@ -25,3 +25,7 @@
 * Sun Apr 12 2015 Dametrious Peyton <dametriouspeyton@countermail.com> 1.3.0-1
 - Using SWL 1.3.4
 - Updated translations
+
+* Sat Jun  6 2020 Dametrious Peyton <dametriouspeyton@countermail.com> 2.0
+- Update SWL 3.3
+- Setting to round tips to next whole number

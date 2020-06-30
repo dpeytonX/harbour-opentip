@@ -7,7 +7,7 @@ Name:       harbour-opentip
 
 # >> macros
 %define __provides_exclude_from ^%{_datadir}/.*$
-%define __requires_exclude ^libapplicationsettings|libcore.*$
+%define __requires_exclude ^libapplicationsettings|libcore|liblanguage.*$
 # << macros
 
 %{!?qtc_qmake:%define qtc_qmake %qmake}
@@ -15,8 +15,8 @@ Name:       harbour-opentip
 %{!?qtc_make:%define qtc_make make}
 %{?qtc_builddir:%define _builddir %qtc_builddir}
 Summary:    OpenTip
-Version:    1.3.0
-Release:    1
+Version:    2.0
+Release:    0
 Group:      Qt/Qt
 License:    GPLv3
 URL:        https://github.com/prplmnky/harbour-opentip
@@ -64,10 +64,23 @@ desktop-file-install --delete-original       \
    %{buildroot}%{_datadir}/applications/*.desktop
 
 %files
-%defattr(-,root,root,-)
-%{_bindir}
-%{_datadir}/%{name}
-%{_datadir}/applications/%{name}.desktop
-%{_datadir}/icons/hicolor/86x86/apps/%{name}.png
+%attr(755, root, root) %{_bindir}/%{name}
+%attr(755, root, root) %{_datadir}/%{name}
+%attr(644, root, root) %{_datadir}/%{name}/qml/*.qml
+%attr(644, root, root) %{_datadir}/%{name}/qml/cover/*.qml
+%attr(644, root, root) %{_datadir}/%{name}/qml/pages/*.qml
+%attr(644, root, root) %{_datadir}/%{name}/translations/*.qm
+%attr(644, root, root) %{_datadir}/%{name}/harbour/opentip/QmlLogger/*
+%attr(644, root, root) %{_datadir}/%{name}/harbour/opentip/OpenTip/*
+%attr(644, root, root) %{_datadir}/%{name}/harbour/opentip/SailfishWidgets/Components/*
+%attr(644, root, root) %{_datadir}/%{name}/harbour/opentip/SailfishWidgets/Database/*
+%attr(644, root, root) %{_datadir}/%{name}/harbour/opentip/SailfishWidgets/FileManagement/*
+%attr(644, root, root) %{_datadir}/%{name}/harbour/opentip/SailfishWidgets/JS/*
+%attr(644, root, root) %{_datadir}/%{name}/harbour/opentip/SailfishWidgets/Language/*
+%attr(644, root, root) %{_datadir}/%{name}/harbour/opentip/SailfishWidgets/Settings/*
+%attr(644, root, root) %{_datadir}/%{name}/harbour/opentip/SailfishWidgets/Utilities/*
+%attr(644, root, root) %{_datadir}/%{name}/harbour/opentip/SailfishWidgets/*.qmltypes
+%attr(644, root, root) %{_datadir}/applications/%{name}.desktop
+%attr(644, root, root) %{_datadir}/icons/hicolor/86x86/apps/%{name}.png
 # >> files
 # << files

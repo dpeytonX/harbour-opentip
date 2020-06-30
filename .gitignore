@@ -1,3 +1,5 @@
 *.pro.user*
 harbour/opentip/SailfishWidgets
 
+thirdparty
+opentip/lib
