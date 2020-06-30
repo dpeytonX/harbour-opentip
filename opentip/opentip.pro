@@ -74,7 +74,8 @@ LIBS += -lsailfishapp \
 CONFIG += sailfishapp_i18n
 TRANSLATIONS += translations/$${TARGET}.ts \
                 translations/$${TARGET}-ja.ts \
-                translations/$${TARGET}-nl.ts
+                translations/$${TARGET}-nl.ts \
+                translations/$${TARGET}-zh.ts
 
 RESOURCES += \
     images.qrc

@@ -1,48 +1,48 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="nl_NL" version="2.1">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="zh" version="2.1">
 <context>
     <name>CoverPage</name>
     <message>
         <source>Open Tip</source>
-        <translation>Open Fooi</translation>
+        <translation>打开小费</translation>
     </message>
     <message>
         <source>Tip</source>
-        <translation>Fooi</translation>
+        <translation>小费</translation>
     </message>
     <message>
         <source>Total</source>
-        <translation>Totaal</translation>
+        <translation>总计</translation>
     </message>
 </context>
 <context>
     <name>MainApp</name>
     <message>
         <source>Reset</source>
-        <translation>Herstellen</translation>
+        <translation>重置</translation>
     </message>
     <message>
         <source>Open Tip</source>
-        <translation>Open Fooi</translation>
+        <translation>打开小费</translation>
     </message>
     <message>
         <source>Select a percentage</source>
-        <translation>Selecteer een percentage</translation>
+        <translation>选择百分比</translation>
     </message>
     <message>
         <source>Custom Percentage %</source>
-        <translation>Aangepast percentage %</translation>
+        <translation>自定义百分比 %</translation>
     </message>
     <message>
         <source>Total before tip</source>
-        <translation>Totaalbedrag zonder fooi</translation>
+        <translation>无小费总计</translation>
     </message>
     <message>
         <source>Total Amount</source>
-        <translation>Totaalbedrag</translation>
+        <translation>总计</translation>
     </message>
     <message>
         <source>Tip Amount</source>
-        <translation>Hoogte van fooi</translation>
+        <translation>小费总计</translation>
     </message>
     <message>
         <source>%</source>
@@ -50,50 +50,50 @@
     </message>
     <message>
         <source>Settings</source>
-        <translation>Instellingen</translation>
+        <translation>设置</translation>
     </message>
     <message>
         <source>No tip required</source>
-        <translation>Er is geen fooi nodig</translation>
+        <translation>不需要小费</translation>
     </message>
     <message>
         <source>The tipping custom in the country currently selected states that tipping is odd, taboo, or forbidden.</source>
-        <translation>Het gebruik van fooien in het huidige geselecteerde land is vreemd, een taboe of verboden.</translation>
+        <translation>当前选择国家的小费习惯较奇怪或禁止给小费</translation>
     </message>
     <message>
         <source>Open source tip calculator</source>
-        <translation>Open bron-fooicalculator</translation>
+        <translation>开源的小费计算器</translation>
     </message>
     <message>
         <source>About</source>
-        <translation>Over</translation>
+        <translation>关于</translation>
     </message>
 </context>
 <context>
     <name>SettingsPage</name>
     <message>
         <source>Settings</source>
-        <translation>Instellingen</translation>
+        <translation>设置</translation>
     </message>
     <message>
         <source>Set tipping custom</source>
-        <translation>Stel aangepaste fooi in</translation>
+        <translation>设置小费风俗</translation>
     </message>
     <message>
         <source>Country</source>
-        <translation>Land</translation>
+        <translation>国家</translation>
     </message>
     <message>
         <source>Application Default</source>
-        <translation>Applicatiestandaard</translation>
+        <translation>应用默认</translation>
     </message>
     <message>
         <source>Switching languages requires an application restart</source>
-        <translation>Om de gekozen taal toe te passen moet u de applicatie herstarten</translation>
+        <translation>修改语言需要重启设备生效</translation>
     </message>
     <message>
         <source>Language</source>
-        <translation>Taal</translation>
+        <translation>语言</translation>
     </message>
     <message>
         <source>Rounding</source>
@@ -108,195 +108,195 @@
     <name>TipCustoms</name>
     <message>
         <source>Default</source>
-        <translation>Standaard</translation>
+        <translation>默认</translation>
     </message>
     <message>
         <source>Albania</source>
-        <translation>Albanië</translation>
+        <translation>阿尔巴尼亚</translation>
     </message>
     <message>
         <source>Argentina</source>
-        <translation>Argentinië</translation>
+        <translation>阿根廷</translation>
     </message>
     <message>
         <source>Australia</source>
-        <translation>Australië</translation>
+        <translation>澳大利亚</translation>
     </message>
     <message>
         <source>Austria</source>
-        <translation>Oostenrijk</translation>
+        <translation>奥地利</translation>
     </message>
     <message>
         <source>Belgium</source>
-        <translation>België</translation>
+        <translation>比利时</translation>
     </message>
     <message>
         <source>Bolivia</source>
-        <translation>Bolivia</translation>
+        <translation>玻利维亚</translation>
     </message>
     <message>
         <source>Bosnia</source>
-        <translation>Bosnië</translation>
+        <translation>波斯尼亚</translation>
     </message>
     <message>
         <source>Canada</source>
-        <translation>Canada</translation>
+        <translation>加拿大</translation>
     </message>
     <message>
         <source>Chile</source>
-        <translation>Chili</translation>
+        <translation>智利</translation>
     </message>
     <message>
         <source>China</source>
-        <translation>China</translation>
+        <translation>中国</translation>
     </message>
     <message>
         <source>Colombia</source>
-        <translation>Colombia</translation>
+        <translation>哥伦比亚</translation>
     </message>
     <message>
         <source>Croatia</source>
-        <translation>Kroatië</translation>
+        <translation>克罗地亚</translation>
     </message>
     <message>
         <source>Czech Republic</source>
-        <translation>Tjechië</translation>
+        <translation>捷克共和国</translation>
     </message>
     <message>
         <source>Denmark</source>
-        <translation>Denemarken</translation>
+        <translation>丹麦</translation>
     </message>
     <message>
         <source>Dominican Republic</source>
-        <translation>Dominicaanse Republiek</translation>
+        <translation>多米尼加共和国</translation>
     </message>
     <message>
         <source>Finland</source>
-        <translation>Finland</translation>
+        <translation>芬兰</translation>
     </message>
     <message>
         <source>France</source>
-        <translation>Frankrijk</translation>
+        <translation>法国</translation>
     </message>
     <message>
         <source>Germany</source>
-        <translation>Duitsland</translation>
+        <translation>德国</translation>
     </message>
     <message>
         <source>Greece</source>
-        <translation>Griekenland</translation>
+        <translation>希腊</translation>
     </message>
     <message>
         <source>Haiti</source>
-        <translation>Haïti</translation>
+        <translation>海地</translation>
     </message>
     <message>
         <source>Hungary</source>
-        <translation>Hongarije</translation>
+        <translation>匈牙利</translation>
     </message>
     <message>
         <source>Iceland</source>
-        <translation>IJsland</translation>
+        <translation>冰岛</translation>
     </message>
     <message>
         <source>India</source>
-        <translation>India</translation>
+        <translation>印度</translation>
     </message>
     <message>
         <source>Ireland</source>
-        <translation>Ierland</translation>
+        <translation>爱尔兰</translation>
     </message>
     <message>
         <source>Israel</source>
-        <translation>Israël</translation>
+        <translation>以色列</translation>
     </message>
     <message>
         <source>Italy</source>
-        <translation>Italië</translation>
+        <translation>意大利</translation>
     </message>
     <message>
         <source>Japan</source>
-        <translation>Japan</translation>
+        <translation>日本</translation>
     </message>
     <message>
         <source>Jordan</source>
-        <translation>Jordanië</translation>
+        <translation>约旦</translation>
     </message>
     <message>
         <source>Malaysia</source>
-        <translation>Maleisië</translation>
+        <translation>马来西亚</translation>
     </message>
     <message>
         <source>Mexico</source>
-        <translation>Mexico</translation>
+        <translation>墨西哥</translation>
     </message>
     <message>
         <source>Netherlands</source>
-        <translation>Nederland</translation>
+        <translation>荷兰</translation>
     </message>
     <message>
         <source> Zealand</source>
-        <translation>Nieuw-Zeeland</translation>
+        <translation>新西兰</translation>
     </message>
     <message>
         <source>Norway</source>
-        <translation>Noorwegen</translation>
+        <translation>挪威</translation>
     </message>
     <message>
         <source>Paraguay</source>
-        <translation>Paraguay</translation>
+        <translation>巴拉圭</translation>
     </message>
     <message>
         <source>Poland</source>
-        <translation>Polen</translation>
+        <translation>波兰</translation>
     </message>
     <message>
         <source>Portugal</source>
-        <translation>Portugal</translation>
+        <translation>葡萄牙</translation>
     </message>
     <message>
         <source>Romania</source>
-        <translation>Roemenië</translation>
+        <translation>罗马尼亚</translation>
     </message>
     <message>
         <source>Russia</source>
-        <translation>Rusland</translation>
+        <translation>俄罗斯</translation>
     </message>
     <message>
         <source>Singapore</source>
-        <translation>Singapore</translation>
+        <translation>新加坡</translation>
     </message>
     <message>
         <source>Slovakia</source>
-        <translation>Slowakije</translation>
+        <translation>斯洛伐克</translation>
     </message>
     <message>
         <source>South Africa</source>
-        <translation>Zuid-Afrika</translation>
+        <translation>南非</translation>
     </message>
     <message>
         <source>Spain</source>
-        <translation>Spanje</translation>
+        <translation>西班牙</translation>
     </message>
     <message>
         <source>Sweden</source>
-        <translation>Zweden</translation>
+        <translation>Sweden</translation>
     </message>
     <message>
         <source>Taiwan</source>
-        <translation>Taiwan</translation>
+        <translation>台湾</translation>
     </message>
     <message>
         <source>Thailand</source>
-        <translation>Thailand</translation>
+        <translation>泰国</translation>
     </message>
     <message>
         <source>United Kingdom</source>
-        <translation>Verenigd Koninkrijk</translation>
+        <translation>英国</translation>
     </message>
     <message>
         <source>United States</source>
-        <translation>Verenigde Staten</translation>
+        <translation>美国</translation>
     </message>
 </context>
 </TS>
